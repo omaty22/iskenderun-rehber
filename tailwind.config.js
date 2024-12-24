@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const plugin = require("tailwindcss/plugin");
-
+import plugin from "tailwindcss/plugin";
 
 export default {
   content: [
@@ -11,5 +10,14 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [
+    plugin(function({ addUtilities }) {
+      // إضافة تخصيصات Tailwind هنا إن لزم الأمر
+      addUtilities({
+        '.example-class': {
+          color: 'red',
+        },
+      });
+    }),
+  ],
+};
