@@ -4,7 +4,7 @@ import animationData from '../assets/PreLoad.json'
 
 function Loader() {
   return (
-    <div className='min-h-screen text-white flex flex-row items-center justify-center trnsition ease-in-out duration-700'>
+    <div className='min-h-screen text-white flex  items-center justify-center trnsition ease-in-out duration-700'>
         <Lottie
             options={{
             loop: true,
