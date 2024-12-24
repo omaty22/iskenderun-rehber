@@ -11,11 +11,10 @@ export default {
     extend: {},
   },
   plugins: [
-    plugin(function({ addUtilities }) {
-      // إضافة تخصيصات Tailwind هنا إن لزم الأمر
+    plugin(function ({ addUtilities }) {
       addUtilities({
-        '.example-class': {
-          color: 'red',
+        ".example-class": {
+          color: "red",
         },
       });
     }),
