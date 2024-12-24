@@ -1,7 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-
-import plugin from "tailwindcss/plugin";
-
 export default {
   content: [
     "./index.html",
@@ -10,13 +7,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [
-    plugin(function ({ addUtilities }) {
-      addUtilities({
-        ".example-class": {
-          color: "red",
-        },
-      });
-    }),
-  ],
-};
+  plugins: [],
+}
