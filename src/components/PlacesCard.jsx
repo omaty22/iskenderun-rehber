@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { faker } from "@faker-js/faker";
 import { Slide, Fade } from "react-awesome-reveal";
-
+import { motion } from "framer-motion";
 // Setting the seed again resets the sequence.
 faker.seed(123);
 
@@ -80,7 +80,12 @@ function PeopleCard(props) {
       <Slider {...settings}>
         {dummyData.map((item, index) => {
           return (
-            <div key={index} className="relative rounded-xl w-1/2 h-60 float-left overflow-hidden group">
+            <motion.div 
+            initial={{opacity: 0,y:100}}
+            transition={{duration: 1.5}} 
+            whileInView={{opacity: 1,y:0}}
+            viewport={{once: true}}
+             key={index} className="relative rounded-xl w-1/2 h-60 float-left overflow-hidden group">
               <div className="absolute w-full h-full">
                 <img src={props.img} className="w-full h-full m-auto" />
               </div>
@@ -107,7 +112,7 @@ function PeopleCard(props) {
                   </Slide>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </Slider>

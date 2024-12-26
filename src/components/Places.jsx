@@ -1,7 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import { assets } from "../assets/assets";
 import PlacesCard from "./PlacesCard";
+import { motion } from "framer-motion";
 
 const categories = [
   {
@@ -24,11 +25,14 @@ const categories = [
 function Places() {
   return (
     <>
-      <Navbar />
-      <div
+      <motion.div
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      exit={{opacity:0}}
         className="h-full bg-cover bg-center"
         style={{ backgroundImage: "url('/header_img.png')" }}
       >
+        <Navbar />
         <div className="w-3/4 m-auto py-10">
           {categories.map((item, index) => {
             return (
@@ -41,7 +45,7 @@ function Places() {
             );
           })}
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }
