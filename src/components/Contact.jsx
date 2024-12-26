@@ -37,7 +37,7 @@ function Contact() {
     transition={{duration: 1.5}} 
     whileInView={{opacity: 1,x:0}}
     viewport={{once: true}}
-    className='mt-20 text-center p-6 py-0 lg:px-32 w-full
+    className='mt-20 text-center p-6 py-2 lg:px-32 w-full
     overflow-hidden' id='Contact'>
       <h1 className=' text-2xl sm:text-4xl font-bold mb-5
       text-center'>Contact Us</h1>

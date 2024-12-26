@@ -57,10 +57,7 @@ function PeopleCard(props) {
 
   return (
     <>
-        <div className='flex'>
-        <img src={props.icon} className='h-25 w-10 pt-10 pb-2'/>
-        <p className='pt-12 pb-5 pl-1 font-extrabold text-white' >{props.category}</p>
-        </div>
+        <p className='pt-12 pb-5 pl-1 font-extrabold text-white text-3xl' >{props.category}</p>
         <Slider {...settings}>
         {
             projectsdata.map((item,index) => {

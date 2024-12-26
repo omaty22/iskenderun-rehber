@@ -30,7 +30,7 @@ function Footer() {
         <Fade cascade damping={0.05}>
             <h2 className='text-3xl font-bold'>Quick Navigasion</h2>
             <ul className='lg:my-10 mb-4 md:flex md:felx-row md:gap-5'>
-                <li className='mb-2'><a className='hover:underline hover:text-gray-300'  href="/">Home</a></li>
+                <li className='mb-2'><a className='hover:underline hover:text-gray-300'  href="/Land">Home</a></li>
                 <li className='mb-2'><a className='hover:underline hover:text-gray-300' href="/People">People</a></li>
                 <li className='mb-2'><a className='hover:underline hover:text-gray-300' href="/Places">Places</a></li>
                 <li><a className='hover:underline hover:text-gray-300' href="/">Transport</a></li>
@@ -43,13 +43,13 @@ function Footer() {
             <ul className='mb-4 flex felx-row gap-7'>
                 <li className='my-4'><a href=""><Facebook size={24} fill='blue' className='ml-5'></Facebook> Facebook</a></li>
                 <li className='my-4'><a href=""><Instagram size={24} fill='purple' className='ml-5'></Instagram> Instagram</a></li>
-                <li className='my-4'><a href=""><Linkedin size={24} fill='blue' className='ml-3'></Linkedin> Linkedin</a></li>
+                <li className='my-4'><a href="https://www.linkedin.com/in/omar-abdullah-554063306/"><Linkedin size={24} fill='blue' className='ml-3'></Linkedin> Linkedin</a></li>
             </ul> 
             </Fade>    
         </div>
     </div>
     <div className='flex justify-center  md:p-5 '>
-        <p className='text-center sm:pb-20 '>&copy; {Year} All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/akshay-madrikar-1a2b3b1b8/">Omar Abdullah</a></p>
+        <p className='text-center sm:pb-20 '>&copy; {Year} All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/omar-abdullah-554063306/">Omar Abdullah</a></p>
        </div>
     </div>
       </motion.footer>
