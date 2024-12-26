@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 import { assets } from '../assets/assets';
 import PeopleCard from './PeopleCard';
 
