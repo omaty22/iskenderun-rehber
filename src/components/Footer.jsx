@@ -41,9 +41,9 @@ function Footer() {
         <Fade cascade damping={0.5}>
             <h2 className='text-3xl font-bold'>Follow Me</h2>
             <ul className='mb-4 flex felx-row gap-7'>
-                <li className='my-4'><a href=""><Facebook size={24} fill='blue'></Facebook> Facebook</a></li>
-                <li className='my-4'><a href=""><Instagram size={24} fill='purple'></Instagram> Instagram</a></li>
-                <li className='my-4'><a href=""><Linkedin size={24} fill='blue'></Linkedin> Linkedin</a></li>
+                <li className='my-4'><a href=""><Facebook size={24} fill='blue' className='ml-5'></Facebook> Facebook</a></li>
+                <li className='my-4'><a href=""><Instagram size={24} fill='purple' className='ml-5'></Instagram> Instagram</a></li>
+                <li className='my-4'><a href=""><Linkedin size={24} fill='blue' className='ml-3'></Linkedin> Linkedin</a></li>
             </ul> 
             </Fade>    
         </div>
