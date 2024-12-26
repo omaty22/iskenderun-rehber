@@ -25,7 +25,7 @@ function Navbar() {
         py-4 px-6 md:px-20 lg:px-32 bg-slate-950 max-w-screen-2xl'>
             <img src={assets.iste} alt="" className='w-10 h-10 '/>
             <ul className='hidden md:flex gap-7 text-white' >
-                <a href="/" className='cursor-pointer hover:text-gray-400'>Home</a>
+                <a href="/Land" className='cursor-pointer hover:text-gray-400'>Home</a>
                 <a href="/People" className='cursor-pointer hover:text-gray-400'>People</a>
                 <a href="/Places" className='cursor-pointer hover:text-gray-400'>Places</a>
                 <a href="/" className='cursor-pointer hover:text-gray-400'>Transport</a>
