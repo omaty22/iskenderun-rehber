@@ -4,6 +4,7 @@ import PeoplePage from '../Pages/PeoplePage';
 import PlacesPage from '../Pages/PlacesPage';
 import PreLoad from '../Pages/PreLoad';
 import ErrorPage from '../Pages/ErrorPage';
+import TransportPage from '../Pages/TransportPage';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion';
 
@@ -16,6 +17,7 @@ function AnimatedPages() {
           <Route path='/' element={<PreLoad />} />
           <Route path='/People' element={<PeoplePage />} />
           <Route path='/Places' element={<PlacesPage />} />
+          <Route path='/Transport' element={<TransportPage/>}/>
 
           <Route path='*' element={<ErrorPage/>}/>
         </Routes>
