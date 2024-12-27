@@ -1,5 +1,5 @@
 import React from 'react'
-import People from '../Components/People'
+import People from '../components/People'
 import Footer from '../components/Footer'
 
 function PeoplePage() {
