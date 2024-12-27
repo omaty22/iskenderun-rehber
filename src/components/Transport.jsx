@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import TelLocation from '../assets/TelLocation.json'
 import Lottie from 'react-lottie'
 import DivLeft from '../components/DivLeft'
+import DivRight from '../components/DivRight'
 
 function Transport() {
   return (
@@ -35,8 +36,9 @@ function Transport() {
     </motion.div>
     </div>
     {/*------------------- iskenderun içi-------------------*/}
-    <div>
-        <DivLeft/>
+    <div className='flex flex-col gap-4'>
+        <DivLeft Hat='49 Sahil Evler' Mah='Barbarus mah, süleymaniye mah, anı meydanı, yeni diş hastanesi, Hilton AVM'/>
+        <DivRight Hat='Çarşı' Mah='Çarşı, Millet Parkı, Pac, Anı Myedanı'/>
     </div>
     </>
   )

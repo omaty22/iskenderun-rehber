@@ -13,7 +13,7 @@ function DivLeft(props) {
      className='max-w-screen-2xl mx-2 h-40 bg-slate-900 text-white'>
         <div className='flex '>
             <div className='border-r-slate-600 border-r-4 pt-5 px-5'>
-                <h1 className='text-2xl font-bold'>49 Sahil Evler</h1>
+                <h1 className='text-2xl font-bold'>{props.Hat}</h1>
                 <Lottie
             options={{
             loop: true,
@@ -28,8 +28,8 @@ function DivLeft(props) {
         />
             </div>
             <div className='container flex flex-col justify-center items-center'>
-                <h1 className='text-2xl font-bold text-center pb-6'>Şehir İçi</h1>
-                <p className='text-center'>Barbarus mah, süleymaniye mah, anı meydanı, yeni diş hastanesi, Hilton AVM</p>
+                <h1 className='text-2xl font-bold text-center pb-8'>Şehir İçi</h1>
+                <p className='text-center'>{props.Mah}</p>
             </div>
         </div>
     </motion.div>
