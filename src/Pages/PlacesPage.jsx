@@ -1,5 +1,5 @@
 import React from 'react'
-import Places from '../Components/Places'
+import Places from '../components/Places'
 import Footer from '../components/Footer'
 
 function PlacesPage() {

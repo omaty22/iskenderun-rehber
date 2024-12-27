@@ -34,7 +34,7 @@ function Navbar() {
         </div>
         {/*------------------- mobile menu -------------------*/}
             {
-            <div className={`${showmobilemenu ? `fixed w-full ` : `hidden`} overflow-hidden flex flex-col DropDownMenu`}>
+            <div className={`${showmobilemenu ? ` w-full` : `hidden`} overflow-hidden flex flex-col DropDownMenu`}>
           <ul className='flex flex-col gap-4'>
             <a onClick={()=> setshowmobilemenu(false)} href="/Land" className='px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800'>Home</a> 
             <a onClick={()=> setshowmobilemenu(false)} href="/People" className='px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800'>People</a>
