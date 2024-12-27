@@ -10,7 +10,7 @@ function PreLoad() {
     
       useEffect(() => {
         setTimeout(() => {
-            navigate('/land');
+            navigate('/Land');
             setIsLoading(false);
         }, 3400);
       });
