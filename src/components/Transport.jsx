@@ -43,8 +43,10 @@ function Transport() {
     <div className='flex flex-col gap-4'>
         <DivLeft Hat='49 Sahil Evler' Mah='Barbarus mah, süleymaniye mah, anı meydanı, yeni diş hastanesi, Hilton AVM'/>
         <DivLeft Hat='Çarşı' Mah='Çarşı, Millet Parkı, Pac, Anı Myedanı'/>
-        <DivRight Hat='Antakya' Mah='Pac Araçları,zaman aralıkları için 0 326 225 35 38 arayabilirsiniz yada 'link='"https://www.antakyaotogari.com/koy-garajlari.php?firma=hatay-antakya-pac-kooperatifi" ziyaret edin'
-        />
+    </div>
+    {/*------------------- iskenderun dışı-------------------*/}
+    <div className='flex flex-col gap-4 mt-4'>
+        <DivRight Hat='Antakya' Mah='Pac Araçları,zaman aralıkları için 0 326 225 35 38 arayabilirsiniz yada Sitelerini ziyaret etmek için :'link='https://www.antakyaotogari.com/koy-garajlari.php?firma=hatay-antakya-pac-kooperatifi'/>
     </div>
     </motion.div>
     </>

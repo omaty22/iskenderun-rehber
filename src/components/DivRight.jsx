@@ -14,7 +14,7 @@ function DivRight(props) {
           <div className='flex '>
           <div className='container flex flex-col justify-center items-center'>
                   <h1 className='text-2xl font-bold text-center pb-6'>Şehir Dışı</h1>
-                  <p className='text-center'>{props.Mah}  {props.link}</p>
+                  <p className='text-center'>{props.Mah}  <a className='font-bold text-blue-600 hover:underline' href={props.link}> Tıklayınız</a></p>
               </div>
               <div className='border-l-slate-600 border-l-4 pt-5'>
                   <h1 className='text-2xl font-bold pl-6'>{props.Hat}</h1>
