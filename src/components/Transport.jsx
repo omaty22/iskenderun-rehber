@@ -39,10 +39,14 @@ function Transport() {
         max-w-3xl font-semibold pt-20 lg:pt-4'>İskenderun'da Ulaşım</h2>
     </motion.div>
     </div>
-    {/*------------------- iskenderun içi-------------------*/}
+    {/*------------------- iskenderun içi Ulaşım-------------------*/}
     <div className='flex flex-col gap-4'>
-        <DivLeft Hat='49 Sahil Evler' Mah='Barbarus mah, süleymaniye mah, anı meydanı, yeni diş hastanesi, Hilton AVM'/>
+        <DivLeft Hat='49 Sahil Evler' Mah='Barbarus mah, Süleymaniye mah, Anı Meydanı, Yeni diş hastanesi, Hilton AVM'/>
         <DivLeft Hat='Çarşı' Mah='Çarşı, Millet Parkı, Pac, Anı Myedanı'/>
+        <DivLeft Hat='Primemall' Mah='Primall AVM merkezi,İSTE üniversitesi,Adliye'/>
+        <DivLeft Hat='Şekere' Mah=''/>
+        <DivLeft Hat='Modern Evler' Mah=''/>
+        <DivLeft Hat='' Mah='İskendrun Taksi duraklarının konum ve numaralarını görüntülemek için:'/>
     </div>
     {/*------------------- iskenderun dışı-------------------*/}
     <div className='flex flex-col gap-4 mt-4'>

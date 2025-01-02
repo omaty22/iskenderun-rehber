@@ -49,7 +49,7 @@ function Footer() {
         </div>
     </div>
     <div className='flex justify-center  md:p-5 '>
-        <p className='text-center sm:pb-20 '>&copy; {Year} All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/omar-abdullah-554063306/">Omar Abdullah</a></p>
+        <p className='text-center sm:py-5'>&copy; {Year} All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/omar-abdullah-554063306/">Omar Abdullah</a></p>
        </div>
     </div>
       </motion.footer>

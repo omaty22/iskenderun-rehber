@@ -13,8 +13,8 @@ function DivRight(props) {
        className='max-w-screen-2xl mx-2 min-h-40 max-h-52 bg-slate-900 text-white'>
           <div className='flex '>
           <div className='container flex flex-col justify-center items-center'>
-                  <h1 className='text-2xl font-bold text-center pb-6'>Şehir Dışı</h1>
-                  <p className='text-center'>{props.Mah}  <a className='font-bold text-blue-600 hover:underline' href={props.link}> Tıklayınız</a></p>
+                  <h1 className='text-2xl font-bold text-center pb-6 xl:text-4xl'>Şehir Dışı</h1>
+                  <p className='text-center xl:text-2xl'>{props.Mah}  <a className='font-bold text-blue-600 hover:underline' href={props.link}> Tıklayın</a></p>
               </div>
               <div className='border-l-slate-600 border-l-4 pt-5'>
                   <h1 className='text-2xl font-bold pl-6'>{props.Hat}</h1>
