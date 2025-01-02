@@ -9,6 +9,10 @@ import DivRight from '../components/DivRight'
 function Transport() {
   return (
     <>
+    <motion.div
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      exit={{opacity:0}}>
     <Navbar/>
     {/*------------------- Header-------------------*/}
     <div className='min-h-screen mb-4 bg-cover bg-center flex items-center
@@ -38,8 +42,11 @@ function Transport() {
     {/*------------------- iskenderun içi-------------------*/}
     <div className='flex flex-col gap-4'>
         <DivLeft Hat='49 Sahil Evler' Mah='Barbarus mah, süleymaniye mah, anı meydanı, yeni diş hastanesi, Hilton AVM'/>
-        <DivRight Hat='Çarşı' Mah='Çarşı, Millet Parkı, Pac, Anı Myedanı'/>
+        <DivLeft Hat='Çarşı' Mah='Çarşı, Millet Parkı, Pac, Anı Myedanı'/>
+        <DivRight Hat='Antakya' Mah='Pac Araçları,zaman aralıkları için 0 326 225 35 38 arayabilirsiniz yada 'link='"https://www.antakyaotogari.com/koy-garajlari.php?firma=hatay-antakya-pac-kooperatifi" ziyaret edin'
+        />
     </div>
+    </motion.div>
     </>
   )
 }
