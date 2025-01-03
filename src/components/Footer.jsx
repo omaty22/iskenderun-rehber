@@ -40,7 +40,7 @@ function Footer() {
         <div className='flex flex-col gap-5'> 
         <Fade cascade damping={0.5}>
             <h2 className='text-3xl font-bold'>Follow Me</h2>
-            <ul className='mb-4 flex felx-row gap-7'>
+            <ul className='flex felx-row gap-7'>
                 <li className='my-4'><a href=""><Facebook size={24} fill='blue' className='ml-5'></Facebook> Facebook</a></li>
                 <li className='my-4'><a href=""><Instagram size={24} fill='purple' className='ml-5'></Instagram> Instagram</a></li>
                 <li className='my-4'><a href="https://www.linkedin.com/in/omar-abdullah-554063306/"><Linkedin size={24} fill='blue' className='ml-3'></Linkedin> Linkedin</a></li>
@@ -48,8 +48,8 @@ function Footer() {
             </Fade>    
         </div>
     </div>
-    <div className='flex justify-center  md:p-5 '>
-        <p className='text-center sm:py-5'>&copy; {Year} All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/omar-abdullah-554063306/">Omar Abdullah</a></p>
+    <div className='flex justify-center pb-5'>
+        <p className='text-center'>&copy; {Year} All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/omar-abdullah-554063306/">Omar Abdullah</a></p>
        </div>
     </div>
       </motion.footer>

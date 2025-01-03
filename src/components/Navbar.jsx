@@ -30,11 +30,11 @@ function Navbar() {
                 <a href="/Places" className='cursor-pointer hover:text-gray-400'>Places</a>
                 <a href="/Transport" className='cursor-pointer hover:text-gray-400'>Transport</a>
             </ul>
-            <img onClick={()=> showmobilemenu ? setshowmobilemenu(flase): setshowmobilemenu(true)} src={assets.menu_icon} alt="" className='md:hidden w-7 cursor-pointer'/>
+            <img onClick={()=> showmobilemenu ? setshowmobilemenu(flase): setshowmobilemenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer'/>
         </div>
         {/*------------------- mobile menu -------------------*/}
             {
-            <div className={`${showmobilemenu ? ` w-full` : `hidden`} overflow-hidden flex flex-col DropDownMenu`}>
+            <div className={`${showmobilemenu ? `w-full` : `hidden`} overflow-hidden flex flex-col DropDownMenu`}>
           <ul className='flex flex-col gap-4'>
             <a onClick={()=> setshowmobilemenu(false)} href="/Land" className='px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800'>Home</a> 
             <a onClick={()=> setshowmobilemenu(false)} href="/People" className='px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800'>People</a>
