@@ -17,7 +17,7 @@ function DivRight(props) {
                   <p className='text-center xl:text-2xl'>{props.Mah}  <a className='font-bold text-blue-600 hover:underline' href={props.link}> Tıklayın</a></p>
               </div>
               <div className='border-l-slate-600 border-l-4 pt-5'>
-                  <h1 className='text-2xl font-bold pl-6'>{props.Hat}</h1>
+                  <h1 className='text-2xl font-bold pl-6 text-center pr-6'>{props.Hat}</h1>
                   <Lottie
               options={{
               loop: true,

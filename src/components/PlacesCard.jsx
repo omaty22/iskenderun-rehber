@@ -39,7 +39,7 @@ const projectsdata = [
 ]
 */
 
-function PeopleCard(props) {
+function PlacesCard(props) {
   let settings = {
     dots: true,
     infinite: true,
@@ -70,14 +70,9 @@ function PeopleCard(props) {
   };
 
   return (
-    <>
-      <div className="flex">
-        <img src={props.icon} className="h-25 w-10 pt-10 pb-2" />
-        <p className="pt-12 pb-5 pl-1 font-extrabold text-white">
-          {props.category}
-        </p>
-      </div>
-      <Slider {...settings}>
+    <> 
+        <p className="pt-12 pb-5 pl-1 font-extrabold text-white text-3xl"> {props.category}</p>
+        <Slider {...settings}>
         {dummyData.map((item, index) => {
           return (
             <motion.div 
@@ -119,5 +114,4 @@ function PeopleCard(props) {
     </>
   );
 }
-
-export default PeopleCard;
+export default PlacesCard;

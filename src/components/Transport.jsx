@@ -46,11 +46,14 @@ function Transport() {
         <DivLeft Hat='Primemall' Mah='Primall AVM merkezi,İSTE üniversitesi,Adliye'/>
         <DivLeft Hat='Şekere' Mah=''/>
         <DivLeft Hat='Modern Evler' Mah=''/>
+        {/*------------------- TAXİ-------------------*/}
         <DivLeft Hat='' Mah='İskendrun Taksi duraklarının konum ve numaralarını görüntülemek için:'/>
     </div>
     {/*------------------- iskenderun dışı-------------------*/}
     <div className='flex flex-col gap-4 mt-4'>
         <DivRight Hat='Antakya' Mah='Pac Araçları,zaman aralıkları için 0 326 225 35 38 arayabilirsiniz yada Sitelerini ziyaret etmek için :'link='https://www.antakyaotogari.com/koy-garajlari.php?firma=hatay-antakya-pac-kooperatifi'/>
+        <DivRight Hat='Belen' Mah='İskenderun - Antakya arası ulaşım için 0 326 225 35 38 arayabilirsiniz yada Sitelerini ziyaret etmek için :'link='https://www.antakyaotogari.com/koy-garajlari.php?firma=hatay-antakya-pac-kooperatifi'/>
+        
     </div>
     </motion.div>
     </>

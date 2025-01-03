@@ -1,23 +1,20 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { assets } from "../assets/assets";
-import PlacesCard from "./PlacesCard";
+import PlacesCard from "../components/PlacesCard";
 import { motion } from "framer-motion";
 
 const categories = [
   {
-    category: "education",
-    icon: assets.book,
+    category: "Education",
     img: assets.city,
   },
   {
-    category: "private cars",
-    icon: assets.car,
+    category: "Private cars",
     img: assets.iste,
   },
   {
-    category: "health",
-    icon: assets.car,
+    category: "Health",
     img: assets.profilepic,
   },
 ];
