@@ -3,25 +3,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { motion } from 'framer-motion'
+import {assets} from '../assets/assets';
 
-const projectsdata = [
-    {
-        title: "John Doe",
-        description: "05388591235",
-        location: "iskenderun"
-    },
-    {
-        title: "Mark tan",
-        description: "05397456123",
-        location: "iskenderun"
-    },
-    {
-        title: "Jess lam",
-        description: "05315935786",
-        location: "iskenderun"
-    },
-]
-
+let Data = [];
 
 function PeopleCard(props) {
     
@@ -53,6 +37,13 @@ function PeopleCard(props) {
             },
           ]
         };
+
+        if (props.category === "Education") {
+            Data = assets.Educationdata; 
+        }
+        if (props.category === "Private Cars") {
+            Data = assets.privatecarsdata;
+        }
     
 
   return (
@@ -60,7 +51,7 @@ function PeopleCard(props) {
         <p className='pt-12 pb-5 pl-1 font-extrabold text-white text-3xl' >{props.category}</p>
         <Slider {...settings}>
         {
-            projectsdata.map((item,index) => {
+            Data.map((item,index) => {
                 return (
                     <motion.div 
                      initial={{opacity: 0,y:100}}
