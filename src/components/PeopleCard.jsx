@@ -22,7 +22,7 @@ function PeopleCard(props) {
               breakpoint: 1200,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: true
               }
@@ -41,8 +41,14 @@ function PeopleCard(props) {
         if (props.category === "Elektrik Cihazlar") {
             Data = assets.ElektrikCihazlar; 
         }
-        if (props.category === "Private Cars") {
+        if (props.category === "Özel Araçlar") {
             Data = assets.privatecarsdata;
+        }
+        if (props.category === "Basım Yayılım") {
+            Data = assets.BasımYayılım;
+        }
+        if (props.category === "Sağlık") {
+            Data = assets.SağlıkData;
         }
     
 
@@ -62,7 +68,7 @@ function PeopleCard(props) {
                         <img src={props.img} className='p-2 w-40 h-40 object-contain block m-auto rounded-full'/> 
                         <h1 className='pt-4 pb-2 font-extrabold'>{item.title}</h1>
                         <p>{item.description}</p>
-                        <p className='pt-1 pb-1'>Location: {item.location}</p>
+                        <p className='pt-1 pb-1'>{item.location}</p>
                     </motion.div>
                 )
             })

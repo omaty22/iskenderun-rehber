@@ -16,8 +16,9 @@ function People() {
     <Navbar/>
     <div className='w-3/4 m-auto py-10'>
     <PeopleCard category="Elektrik Cihazlar"  img={assets.profilepic}/>
-    <PeopleCard category="Private Cars"  img={assets.profilepic}/>
-    <PeopleCard category="Health"  img={assets.profilepic}/>
+    <PeopleCard category="Özel Araçlar"  img={assets.profilepic}/>
+    <PeopleCard category="Basım Yayılım"  img={assets.profilepic}/>
+    <PeopleCard category="Sağlık"  img={assets.profilepic}/>
     </div>
     </motion.div>
     </>

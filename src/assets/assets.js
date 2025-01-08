@@ -3,7 +3,6 @@ import header_img from './header_img.png';
 import menu_icon from './menu_icon.svg';
 import city from './city.jpg';
 import profilepic from './ProfilePic.png';
-import { title } from 'framer-motion/client';
 
 const ElektrikCihazlar = [
     {
@@ -22,21 +21,6 @@ const ElektrikCihazlar = [
         location: "Elektrikçi"
     },
     {
-        title: "Murat Yıldız",
-        description: "+90 534 245 42 28",
-        location: "Elektrikçi"
-    },
-    {
-        title: "Süleyman Yıldız",
-        description: "+90 539 577 52 34",
-        location: "Elektrikçi"
-    },
-    {
-        title: "Hasan Yıldız",
-        description: "+90 534 023 00 65",
-        location: "Elektrikçi"
-    },
-    {
         title: "Halil",
         description: "+90 535 383 14 19",
         location: "kamera ve bilgisayar tamiri/kurumu"
@@ -50,6 +34,11 @@ const ElektrikCihazlar = [
         title: "Yamen",
         description: "+90 555 033 39 55",
         location: "Buzdolap/Ç.makinası alış/satışı"
+    },
+    {
+        title: "umran zamzam",
+        description: "+90 534 245 42 28",
+        location: "makina tamiri"
     },
 ]
 
@@ -76,12 +65,42 @@ const  privatecarsdata = [
     },
 ]
 
-const freedata = [
+const BasımYayılım = [
     {
-        title: "umran zamzam",
-        description: "+90 534 245 42 28",
-        location: "makina tamiri"
+            title: "samer hafız",
+            description: "+90 551 968 90 05",
+            location: "basım/yayılım"
+        },
+        {
+            title: "Muaz Bey",
+            description: "+90 535 017 57 93",
+            location: "basım/yayılım"
+        },
+        {
+            title: "Mulham Garib",
+            description: "+90 545 977 39 44",
+            location: "basım/yayılım"
+        },
+]
+
+const SağlıkData = [
+    {
+        title: "Hamza",
+        description: "+90 536 070 68 81",
+        location: "eczane/ilaç"
     },
+    {
+        title: "yusuf alkurdi",
+        description: "+90 538 730 09 84",
+        location: "tıbbi tahliller"
+    },
+    {
+        title: "Hasan",
+        description: "+90 534 023 00 65",
+        location: "fizikoloji/masaj"
+    },
+]
+const freedata = [
     {
         title: "safuan",
         description: "‎+90 539 577 52 34",
@@ -91,16 +110,6 @@ const freedata = [
         title: "yuş3",
         description: "+90 539 336 65 44",
         location: "Transfer"
-    },
-    {
-        title: "Hasan",
-        description: "+90 534 023 00 65",
-        location: "fizikoloji/masaj"
-    },
-    {
-        title: "Hamza",
-        description: "+90 536 070 68 81",
-        location: "eczane"
     },
     {
         title: "betar emlak",
@@ -113,30 +122,10 @@ const freedata = [
         location: "Emlakçı"
     },
     {
-        title: "samer hafız",
-        description: "+90 551 968 90 05",
-        location: "basım/yayılım"
-    },
-    {
-        title: "Muaz Bey",
-        description: "+90 535 017 57 93",
-        location: "basım/yayılım"
-    },
-    {
-        title: "Mulham Garib",
-        description: "+90 545 977 39 44",
-        location: "basım/yayılım"
-    },
-    {
         title: "Ömer Bey",
         description: "+90 551 953 65 37",
         location: "boyacı"
     },
-    {
-        title: "yusuf alkurdi",
-        description: "+90 538 730 09 84",
-        location: "tıbbi tahliller"
-    }
 ]
 
 export const assets ={
@@ -147,6 +136,8 @@ export const assets ={
     profilepic,
     ElektrikCihazlar,
     privatecarsdata,
+    BasımYayılım,
+    SağlıkData,
 }
 
 
