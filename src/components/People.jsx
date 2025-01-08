@@ -15,7 +15,7 @@ function People() {
        className='h-full bg-cover bg-center' style={{backgroundImage: "url('/header_img.png')"} } id='People'>
     <Navbar/>
     <div className='w-3/4 m-auto py-10'>
-    <PeopleCard category="Education"  img={assets.profilepic}/>
+    <PeopleCard category="Elektrik Cihazlar"  img={assets.profilepic}/>
     <PeopleCard category="Private Cars"  img={assets.profilepic}/>
     <PeopleCard category="Health"  img={assets.profilepic}/>
     </div>

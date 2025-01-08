@@ -38,8 +38,8 @@ function PeopleCard(props) {
           ]
         };
 
-        if (props.category === "Education") {
-            Data = assets.Educationdata; 
+        if (props.category === "Elektrik Cihazlar") {
+            Data = assets.ElektrikCihazlar; 
         }
         if (props.category === "Private Cars") {
             Data = assets.privatecarsdata;
