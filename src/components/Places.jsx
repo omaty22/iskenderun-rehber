@@ -26,8 +26,8 @@ function Places() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="h-full bg-cover bg-center"
-        style={{ backgroundImage: "url('/header_img.png')" }}
+        className="h-full bg-cover bg-center bg-slate-900"
+        style={{ backgroundImage: "url('/header_img.jpg')" }}
       >
         <Navbar />
         <div className="w-3/4 m-auto py-10">

@@ -13,6 +13,7 @@ function Transport() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
+        className="mb-8"
       >
         <Navbar />
         {/*------------------- Header-------------------*/}
@@ -25,7 +26,7 @@ function Transport() {
             transition={{ duration: 1.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="container text-center mx-auto  px-6  text-white"
+            className="container text-center mx-auto mb-4 px-6  text-white"
           >
             <div className="lg:w-1/2 lg:mx-auto">
               <Lottie

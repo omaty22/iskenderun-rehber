@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import PeopleCard from "./PeopleCard";
 import { motion } from "framer-motion";
-import { assets } from "../assets/assets";
 
 function People() {
   return (
@@ -11,8 +10,7 @@ function People() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="h-full bg-cover bg-center"
-        style={{ backgroundImage: "url('/header_img.png')" }}
+        className="h-full bg-cover bg-center bg-slate-900"
         id="People"
       >
         <Navbar />

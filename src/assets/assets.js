@@ -1,9 +1,8 @@
 import iste from './iste.png';
-import header_img from './header_img.png';
+import header_img from './header.jpg';
 import menu_icon from './menu_icon.svg';
 import city from './city.jpg';
 import profilepic from './ProfilePic.png';
-import { title } from 'framer-motion/client';
 
 const ElektrikCihazlar = [
     {
