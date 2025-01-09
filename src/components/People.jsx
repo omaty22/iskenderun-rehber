@@ -17,11 +17,11 @@ function People() {
       >
         <Navbar />
         <div className="w-3/4 m-auto py-10">
-          <PeopleCard category="Elektrik Cihazlar" img={assets.profilepic} />
-          <PeopleCard category="Özel Araçlar" img={assets.profilepic} />
-          <PeopleCard category="Basım Yayılım" img={assets.profilepic} />
-          <PeopleCard category="Sağlık" img={assets.profilepic} />
-          <PeopleCard category="Emlak" img={assets.profilepic} />
+          <PeopleCard category="Elektrik Cihazlar" />
+          <PeopleCard category="Özel Araçlar" />
+          <PeopleCard category="Basım Yayılım" />
+          <PeopleCard category="Sağlık" />
+          <PeopleCard category="Emlak" />
         </div>
       </motion.div>
     </>

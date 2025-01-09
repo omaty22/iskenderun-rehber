@@ -70,7 +70,7 @@ function PeopleCard(props) {
               className="rounded-xl w-1/2 float-left text-center bg-gray-500 cursor-pointer hover:text-gray-200 hover:bg-transparent group"
             >
               <img
-                src={props.img}
+                src={assets.profilepic}
                 className="p-2 w-40 h-40 object-contain block m-auto rounded-full"
               />
               <h1 className="pt-4 pb-2 font-extrabold">{item.title}</h1>
