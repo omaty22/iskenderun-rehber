@@ -1,14 +1,14 @@
-import React from 'react'
-import Places from '../components/Places'
-import Footer from '../components/Footer'
+import React from "react";
+import Places from "../components/Places";
+import Footer from "../components/Footer";
 
 function PlacesPage() {
   return (
     <div>
-      <Places/>
-      <Footer/>
+      <Places />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default PlacesPage
+export default PlacesPage;

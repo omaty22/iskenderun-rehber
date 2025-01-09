@@ -1,14 +1,15 @@
-import React from 'react'
-import { BrowserRouter} from 'react-router-dom';
-import AnimatedPages from './components/AnimatedPages';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import AnimatedPages from "./components/AnimatedPages";
 
 function App() {
   return (
-    <div className='w-full overflow-hidden'>
+    <div className="w-full overflow-hidden">
       <BrowserRouter>
-        <AnimatedPages/>
+        <AnimatedPages />
       </BrowserRouter>
-    </div>)
+    </div>
+  );
 }
 
-export default App
+export default App;

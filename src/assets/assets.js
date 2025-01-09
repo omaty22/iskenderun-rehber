@@ -3,6 +3,7 @@ import header_img from './header_img.png';
 import menu_icon from './menu_icon.svg';
 import city from './city.jpg';
 import profilepic from './ProfilePic.png';
+import { title } from 'framer-motion/client';
 
 const ElektrikCihazlar = [
     {
@@ -100,6 +101,34 @@ const SağlıkData = [
         location: "fizikoloji/masaj"
     },
 ]
+
+const EmlakData = [
+    {
+        title: "betar emlak",
+        description: "+90 506 859 74 90",
+        location: "Emlakçı"
+    },
+    {
+        title: "Serdar emlak",
+        description: "+90 507 320 92 47",
+        location: "Emlakçı"
+    },
+    {
+        title   : "VEGA GAYRİMENKUL",
+        description: "0326 617 77 73",
+        location: "GAYRİMENKUL"
+    },
+    {
+        title   : "MAJÖR GAYRİMENKUL",
+        description: "0326 614 15 55",
+        location: "GAYRİMENKUL"
+    },
+    {
+        title   : "AYTEV GAYRİMENKUL",
+        description: "0326 613 53 90",
+        location: "GAYRİMENKUL"
+    },
+]
 const freedata = [
     {
         title: "safuan",
@@ -110,16 +139,6 @@ const freedata = [
         title: "yuş3",
         description: "+90 539 336 65 44",
         location: "Transfer"
-    },
-    {
-        title: "betar emlak",
-        description: "+90 506 859 74 90",
-        location: "Emlakçı"
-    },
-    {
-        title: "Serdar Bey",
-        description: "+90 507 320 92 47",
-        location: "Emlakçı"
     },
     {
         title: "Ömer Bey",
@@ -138,6 +157,7 @@ export const assets ={
     privatecarsdata,
     BasımYayılım,
     SağlıkData,
+    EmlakData,
 }
 
 

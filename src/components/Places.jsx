@@ -23,9 +23,9 @@ function Places() {
   return (
     <>
       <motion.div
-      initial={{opacity:0}}
-      animate={{opacity:1}}
-      exit={{opacity:0}}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
         className="h-full bg-cover bg-center"
         style={{ backgroundImage: "url('/header_img.png')" }}
       >
