@@ -15,7 +15,7 @@ const categories = [
   },
   {
     category: "Health",
-    img: assets.profilepic,
+    img: assets.city,
   },
 ];
 
