@@ -19,26 +19,6 @@ const dummyData = Array.from({ length: 10 }, () => ({
   phone: "05384559660",
 }));
 
-/*
-const projectsdata = [
-    {
-        title: "John Doe",
-        description: "05388591235",
-        location: "iskenderun"
-    },
-    {
-        title: "Mark tan",
-        description: "05397456123",
-        location: "iskenderun"
-    },
-    {
-        title: "Jess lam",
-        description: "05315935786",
-        location: "iskenderun"
-    },
-]
-*/
-
 function PlacesCard(props) {
   let settings = {
     dots: true,
@@ -53,7 +33,7 @@ function PlacesCard(props) {
         breakpoint: 1200,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
