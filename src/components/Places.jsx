@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import PlacesCard from "../components/PlacesCard";
 import { motion } from "framer-motion";
 
+
 function Places() {
   return (
     <>
@@ -15,13 +16,13 @@ function Places() {
       >
         <Navbar />
         <div className="w-3/4 m-auto py-10">
-          <PlacesCard category="Lokantalar" />
+          <PlacesCard category="Lokantalar" img="" />
           <PlacesCard category="Marketler" />
           <PlacesCard category="Oteller" />
-          <PlacesCard category="Gym" />
+          <PlacesCard category="Spor Salonları" />
           <PlacesCard category="Park/Gezme yerleri"/>
           <PlacesCard category="Pertol"/>
-          <PlacesCard category="Kahveler"/>
+          <PlacesCard category="Cafe"/>
           <PlacesCard category="Araba Kiralama"/>
         </div>
       </motion.div>
