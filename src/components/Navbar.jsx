@@ -38,6 +38,9 @@ function Navbar() {
           <a href="/Transport" className="cursor-pointer hover:text-gray-400">
             Transport
           </a>
+          <a href="/Sorular" className="cursor-pointer hover:text-gray-400">
+            Sorular
+          </a>
         </ul>
         <img
           onClick={() =>
@@ -82,6 +85,13 @@ function Navbar() {
               className="px-2 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
               Transport
+            </a>
+            <a
+              onClick={() => setshowmobilemenu(false)}
+              href="/Sorular"
+              className="px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+            >
+              Sorular
             </a>
           </ul>
         </div>
