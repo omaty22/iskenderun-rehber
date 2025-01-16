@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import PeopleCard from "./PeopleCard";
 import { motion } from "framer-motion";
 
@@ -21,6 +22,7 @@ function People() {
           <PeopleCard category="Sağlık" />
           <PeopleCard category="Emlak" />
         </div>
+        <Footer/>
       </motion.div>
     </>
   );

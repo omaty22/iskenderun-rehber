@@ -6,7 +6,6 @@ function PeoplePage() {
   return (
     <div>
       <People />
-      <Footer />
     </div>
   );
 }

@@ -6,7 +6,6 @@ function PlacesPage() {
   return (
     <div>
       <Places />
-      <Footer />
     </div>
   );
 }

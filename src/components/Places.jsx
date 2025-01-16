@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import PlacesCard from "../components/PlacesCard";
+import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 
 
@@ -17,7 +18,7 @@ function Places() {
         <Navbar />
         <div className="w-3/4 m-auto py-10">
           <PlacesCard category="Lokantalar" img="" />
-          <PlacesCard category="Marketler" />
+          <PlacesCard category="Siparış Getirn Marketler" />
           <PlacesCard category="Oteller" />
           <PlacesCard category="Spor Salonları" />
           <PlacesCard category="Park/Gezme yerleri"/>
@@ -25,6 +26,7 @@ function Places() {
           <PlacesCard category="Cafe"/>
           <PlacesCard category="Araba Kiralama"/>
         </div>
+        <Footer/>
       </motion.div>
     </>
   );

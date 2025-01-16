@@ -7,6 +7,7 @@ import PlacesHotel from './PlacesHotel.png';
 import Sporİmg from './fitness.png';
 import Cafeİmg from './coffee.png';
 import Rentİmg from './CarRent.png';
+import Marketİmg from './market.png';
 
 const ElektrikCihazlar = [
     {
@@ -234,6 +235,30 @@ const PlacesRent = [
         location: "https://www.google.com/maps/place/%C3%87ar%C5%9F%C4%B1+Park+Oto+Kiralama/@36.5852655,36.1673067,16z/data=!4m10!1m2!2m1!1zIMOHQVLFnkkgT1RPIEvEsFJBTEFNQSAow5ZtZXIgQXNsYW4gU2F2YcWfKQ!3m6!1s0x152f5969cec0b43b:0x14c8ce13a4322b9c!8m2!3d36.5896368!4d36.1699603!15sCirDh0FSxZ5JIE9UTyBLxLBSQUxBTUEgKMOWbWVyIEFzbGFuIFNhdmHFnymSARNjYXJfbGVhc2luZ19zZXJ2aWNl4AEA!16s%2Fg%2F11fn9dt2nx?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D",
     }
 ]
+
+const PlacesMarket = [
+    {
+        title: "Aka Supermarket",
+        description: "03266135461/Delivery",
+        location: "https://www.google.com/maps/place/Aka+Supermarket/@36.58626,36.1698389,17z/data=!4m15!1m8!3m7!1s0x152f592e02599f3f:0x48b01687ae808ee5!2sAka+Supermarket!8m2!3d36.58626!4d36.1698389!10e1!16s%2Fg%2F11b7q3y516!3m5!1s0x152f592e02599f3f:0x48b01687ae808ee5!8m2!3d36.58626!4d36.1698389!16s%2Fg%2F11b7q3y516?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+        title: "Tezcan Market",
+        description: "03266138650/Delivery",
+        location: "https://www.google.com/maps/place/Tezcan+Market/@36.57902,33.9240201,7z/data=!4m10!1m2!2m1!1s+TEZCAN+MARKET+(Erol+Tezcan)!3m6!1s0x152f58d803209c93:0x4358f1bc050db6d!8m2!3d36.57902!4d36.165231!15sChtURVpDQU4gTUFSS0VUIChFcm9sIFRlemNhbilaGyIZdGV6Y2FuIG1hcmtldCBlcm9sIHRlemNhbpIBDWdyb2Nlcnlfc3RvcmXgAQA!16s%2Fg%2F11b7q6vllb?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+        title: "HANÇER market",
+        description: "05325648129/Delivery",
+        location: "https://www.google.com/maps/place/HAN%C3%87ER+market/@36.57902,33.9240201,7z/data=!4m10!1m2!2m1!1s+HAN%C3%87ER+GIDA+(Hasan+Han%C3%A7er)!3m6!1s0x1525fb151963eeed:0xf63d12e6fc21feba!8m2!3d36.4789112!4d36.0621579!15sChxIQU7Dh0VSIEdJREEgKEhhc2FuIEhhbsOnZXIpWhwiGmhhbsOnZXIgZ2lkYSBoYXNhbiBoYW7Dp2VykgENZ3JvY2VyeV9zdG9yZeABAA!16s%2Fg%2F11f5vdh5wt?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+        title: "Uçar Market",
+        description: "0326 618 05 11",
+        location: "https://www.google.com/maps/place/U%C3%A7ar+Market/@36.9132087,35.9062654,10z/data=!4m10!1m2!2m1!1sU%C3%87AR+MARKET+(Metin+U%C3%A7ar)!3m6!1s0x152f58bcf65aaa8f:0xb046880c30175597!8m2!3d36.5561582!4d36.1583216!15sChpVw4dBUiBNQVJLRVQgKE1ldGluIFXDp2FyKVoaIhh1w6dhciBtYXJrZXQgbWV0aW4gdcOnYXKSAQ1ncm9jZXJ5X3N0b3Jl4AEA!16s%2Fg%2F11cs3jpr_c?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
+    },
+]
+
 const freedata = [
     {
         title: "yuş3",
@@ -260,6 +285,8 @@ export const assets ={
     Cafeİmg,
     PlacesRent,
     Rentİmg,
+    PlacesMarket,
+    Marketİmg,
 }
 
 

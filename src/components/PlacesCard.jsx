@@ -46,8 +46,9 @@ function PlacesCard(props) {
   if (props.category === "Lokantalar") {
       Data = assets.ElektrikCihazlar;
     }
-    if (props.category === "Marketler") {
-      Data = assets.privatecarsdata;
+    if (props.category === "Siparış Getirn Marketler") {
+      Data = assets.PlacesMarket;
+      image= assets.Marketİmg;
     }
     if (props.category === "Oteller") {
       Data = assets.PlacesOtel;
