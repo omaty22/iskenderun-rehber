@@ -30,13 +30,13 @@ function Navbar() {
             Home
           </a>
           <a href="/People" className="cursor-pointer hover:text-gray-400">
-            People
+            Kişiler
           </a>
           <a href="/Places" className="cursor-pointer hover:text-gray-400">
-            Places
+            Yerler
           </a>
           <a href="/Transport" className="cursor-pointer hover:text-gray-400">
-            Transport
+            Ulaşım
           </a>
           <a href="/Sorular" className="cursor-pointer hover:text-gray-400">
             Sorular
@@ -70,7 +70,7 @@ function Navbar() {
               href="/People"
               className="px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              People
+              Kişiler
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}
