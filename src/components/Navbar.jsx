@@ -5,19 +5,11 @@ function Navbar() {
   const [showmobilemenu, setshowmobilemenu] = React.useState(false);
 
   useEffect(() => {
-    if (showmobilemenu) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
     return () => {
       document.body.style.overflow = "auto";
     };
   }, [showmobilemenu]);
 
-  /*
-  bg-transparent
-  */
   return (
     <div className="absolute top-0 left-0 w-full z-10 bg-slate-950">
       <div
@@ -44,7 +36,7 @@ function Navbar() {
         </ul>
         <img
           onClick={() =>
-            showmobilemenu ? setshowmobilemenu(flase) : setshowmobilemenu(true)
+            !showmobilemenu ? setshowmobilemenu(true) : setshowmobilemenu(false)
           }
           src={assets.menu_icon}
           className="md:hidden w-7 cursor-pointer"
