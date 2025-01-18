@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
-import { Slide, Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function Footer() {
   const Year = new Date().getFullYear();
@@ -36,7 +36,7 @@ function Footer() {
               className="relative block fill-transparent"
             ></path>
           </svg>
-          <div className="grid md:grid-cols-3 sm:grid-cols-1 p-20 gap-10">
+          <div className="grid lg:grid-cols-3 sm:grid-cols-1 p-20 gap-10">
             <div className="flex flex-col gap-5">
               <Fade cascade damping={0.05}>
                 <h2 className="text-3xl font-bold">About Me</h2>
@@ -47,10 +47,10 @@ function Footer() {
                 </p>
               </Fade>
             </div>
-            <div className="flex flex-col gap-5 md:ml-10">
+            <div className="flex flex-col gap-5 lg:ml-10">
               <Fade cascade damping={0.05}>
                 <h2 className="text-3xl font-bold">Quick Navigasion</h2>
-                <ul className="lg:my-10 mb-4 md:flex md:felx-row md:gap-5">
+                <ul className="lg:my-10 mb-4 lg:flex lg:felx-row lg:gap-5">
                   <li className="mb-2">
                     <a
                       className="hover:underline hover:text-gray-300"
