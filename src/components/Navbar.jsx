@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useRef, useEffect, } from "react";
 import { assets } from "../assets/assets";
 
 function Navbar() {
@@ -10,6 +10,21 @@ function Navbar() {
     };
   }, [showmobilemenu]);
 
+  const outerRef = useRef();
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (!outerRef.current.contains(e.target)) {
+        setshowmobilemenu(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
   return (
     <div className="absolute top-0 left-0 w-full z-10 bg-slate-950">
       <div
@@ -38,6 +53,7 @@ function Navbar() {
           onClick={() =>
             !showmobilemenu ? setshowmobilemenu(true) : setshowmobilemenu(false)
           }
+          ref={outerRef}
           src={assets.menu_icon}
           className="md:hidden w-7 cursor-pointer"
         />
@@ -47,7 +63,7 @@ function Navbar() {
         <div
           className={`${
             showmobilemenu ? `w-full` : `hidden`
-          } overflow-hidden flex flex-col DropDownMenu`}
+          } overflow-hidden flex flex-col DropDownMenu`} 
         >
           <ul className="flex flex-col gap-4">
             <a
