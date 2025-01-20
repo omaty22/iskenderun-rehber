@@ -18,14 +18,13 @@ function About() {
       id="About"
     >
       <h1 className="text-2xl sm:text-4xl font-bold mb-2">
-        About{" "}
-        <span className="underline underline-offset-4 decoration-1 under font-bold text-blue-800">
-          İskenderun
-        </span>
+      <span className="underline underline-offset-4 decoration-1 under font-bold text-blue-800">
+          İSKENDERUN
+        </span>{" "}
+        Hakkında
       </h1>
       <p className="text-gray-500 max-w-80 text-center">
-        İskenderun is a city on the Hatay reigon of turkey known for its
-        spectacular seaside view and warm hearted locals
+      İskenderun, Türkiye'nin Hatay bölgesinde muhteşem sahil manzarası ve sıcakkanlı yerli halkıyla bilinen bir şehirdir.
       </p>
       <div className="flex flex-col xl:flex-row items-center xl:items-start xl:gap-20">
         <img

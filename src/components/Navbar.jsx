@@ -19,7 +19,7 @@ function Navbar() {
         <img src={assets.iste} alt="" className="w-10 h-10 " />
         <ul className="hidden md:flex gap-7 text-white">
           <a href="/Land" className="cursor-pointer hover:text-gray-400">
-            Home
+            Hakkında
           </a>
           <a href="/People" className="cursor-pointer hover:text-gray-400">
             Kişiler
@@ -53,30 +53,30 @@ function Navbar() {
             <a
               onClick={() => setshowmobilemenu(false)}
               href="/Land"
-              className="px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+              className="px-2 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              Home
+              Hakkında
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}
               href="/People"
-              className="px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+              className="px-5 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
               Kişiler
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}
               href="/Places"
-              className="px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+              className="px-5 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              Places
+              Yerler
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}
               href="/Transport"
-              className="px-2 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+              className="px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              Transport
+              Ulaşım
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}

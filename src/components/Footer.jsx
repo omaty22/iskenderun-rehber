@@ -39,24 +39,22 @@ function Footer() {
           <div className="grid lg:grid-cols-3 sm:grid-cols-1 p-20 gap-10">
             <div className="flex flex-col gap-5">
               <Fade cascade damping={0.05}>
-                <h2 className="text-3xl font-bold">About Me</h2>
+                <h2 className="text-3xl font-bold">Site Hakkında</h2>
                 <p className="lg:my-2 mb-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                  alias laborum earum maxime qui, ullam saepe deleniti veritatis
-                  nihil eius suscip
+                Bu site, İSTE'ye yeni gelen öğrencilerin İskenderun şehrinde kaldıkları süre boyunca yerler, insanlar, ulaşım bilgileri bulmalarına ve ihtiyaç duyabilecekleri genel sorulara cevaplamakta yardımcı olmak için yapılmıştır.
                 </p>
               </Fade>
             </div>
             <div className="flex flex-col gap-5 lg:ml-10">
               <Fade cascade damping={0.05}>
-                <h2 className="text-3xl font-bold">Quick Navigasion</h2>
+                <h2 className="text-3xl font-bold">Hızlı Gezinme</h2>
                 <ul className="lg:my-10 mb-4 lg:flex lg:felx-row lg:gap-5">
                   <li className="mb-2">
                     <a
                       className="hover:underline hover:text-gray-300"
                       href="/Land"
                     >
-                      Home
+                      Hakkında
                     </a>
                   </li>
                   <li className="mb-2">
@@ -64,7 +62,7 @@ function Footer() {
                       className="hover:underline hover:text-gray-300"
                       href="/People"
                     >
-                      People
+                      Kişiler
                     </a>
                   </li>
                   <li className="mb-2">
@@ -72,12 +70,19 @@ function Footer() {
                       className="hover:underline hover:text-gray-300"
                       href="/Places"
                     >
-                      Places
+                      Yerler
+                    </a>
+                  </li>
+                  <li className="mb-2">
+                    <a className="hover:underline hover:text-gray-300"
+                     href="/Transport">
+                      Ulaşım
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline hover:text-gray-300" href="/">
-                      Transport
+                    <a className="hover:underline hover:text-gray-300" 
+                    href="/Sorular">
+                      Sorular
                     </a>
                   </li>
                 </ul>
@@ -85,7 +90,7 @@ function Footer() {
             </div>
             <div className="flex flex-col gap-5">
               <Fade cascade damping={0.5}>
-                <h2 className="text-3xl font-bold">Follow Me</h2>
+                <h2 className="text-3xl font-bold">Takip Edin</h2>
                 <ul className="flex felx-row gap-7">
                   <li className="my-4">
                     <a href="">

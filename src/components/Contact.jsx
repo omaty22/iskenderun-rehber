@@ -7,7 +7,7 @@ function Contact() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult("Gönderiliyor....");
     const formData = new FormData(event.target);
 
     formData.append("access_key", "fc826fb9-8570-48b4-ac6f-8b874e76bcc1");
@@ -44,19 +44,18 @@ function Contact() {
         className=" text-2xl sm:text-4xl font-bold mb-5
       text-center"
       >
-        Contact Us
+        Bize Ulaşın
       </h1>
       <p className="text-center text-black mb-12 max-w-80 mx-auto">
-        Want to add your buisness ? or hire us to build your website ? feel free
-        to contact us via email
+      İşletmenizi eklemek mi istiyorsunuz? Ya da web sitenizi oluşturmanız için bizi mi seçtiniz? E-posta yoluyla bizimle iletişime geçin.
       </p>
 
       <form onSubmit={onSubmit} className="max-w-2xl mx-auto to-black">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 text-left">
-            Your Name
+            Adınız
             <input
-              className="w-full border border-gray-300 rounded py-3 px-4 mt-2"
+              className="w-full border border-gray-300 rounded py-3 px-4 my-2"
               name="Name"
               type="text"
               placeholder="Name"
@@ -64,7 +63,7 @@ function Contact() {
             />
           </div>
           <div className="w-full md:w-1/2 text-left md:pl-4">
-            Your Email
+            Email Adresiniz
             <input
               className="w-full border border-gray-300 rounded py-3 px-4 mt-2"
               name="Email"
@@ -75,7 +74,7 @@ function Contact() {
           </div>
         </div>
         <div className="my-6 text-left">
-          Message
+          Mesajınız
           <textarea
             className="w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none"
             name="Message"
@@ -87,7 +86,7 @@ function Contact() {
           className="bg-black text-white py-2 px-12 mb-10 rounded hover:bg-gray-800"
           type="submit"
         >
-          {result ? result : "Send Message"}
+          {result ? result : "Mesajı Gönder"}
         </button>
       </form>
     </motion.div>

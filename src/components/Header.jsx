@@ -25,16 +25,16 @@ function Header() {
         </h2>
         <div className="space-x-6 mt-16">
           <a
-            className="border border-black px-8 py-3 rounded hover:text-white hover:bg-black "
+            className="font-extrabold border border-black px-8 py-3 rounded hover:text-white hover:bg-black "
             href="#About"
           >
-            About
+            Şehir
           </a>
           <a
-            className="bg-blue-500 px-8 py-3 rounded hover:text-black text-white "
+            className="font-bold bg-blue-500 px-8 py-3 rounded hover:text-black text-white "
             href="#Contact"
           >
-            Contact us
+            İletişim
           </a>
         </div>
       </motion.div>
