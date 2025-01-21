@@ -8,6 +8,8 @@ import Sporİmg from './fitness.png';
 import Cafeİmg from './coffee.png';
 import Rentİmg from './CarRent.png';
 import Marketİmg from './market.png';
+import Parkİmg from './park.png';
+import Resturantİmg from './resturant.png'
 
 const ElektrikCihazlar = [
     {
@@ -238,6 +240,11 @@ const PlacesRent = [
 
 const PlacesMarket = [
     {
+        title: "Roka Market",
+        description: "04322154650/Delivery",
+        location : "https://www.rokamarket.com.tr",
+    },
+    {
         title: "Aka Supermarket",
         description: "03266135461/Delivery",
         location: "https://www.google.com/maps/place/Aka+Supermarket/@36.58626,36.1698389,17z/data=!4m15!1m8!3m7!1s0x152f592e02599f3f:0x48b01687ae808ee5!2sAka+Supermarket!8m2!3d36.58626!4d36.1698389!10e1!16s%2Fg%2F11b7q3y516!3m5!1s0x152f592e02599f3f:0x48b01687ae808ee5!8m2!3d36.58626!4d36.1698389!16s%2Fg%2F11b7q3y516?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
@@ -257,6 +264,47 @@ const PlacesMarket = [
         description: "0326 618 05 11",
         location: "https://www.google.com/maps/place/U%C3%A7ar+Market/@36.9132087,35.9062654,10z/data=!4m10!1m2!2m1!1sU%C3%87AR+MARKET+(Metin+U%C3%A7ar)!3m6!1s0x152f58bcf65aaa8f:0xb046880c30175597!8m2!3d36.5561582!4d36.1583216!15sChpVw4dBUiBNQVJLRVQgKE1ldGluIFXDp2FyKVoaIhh1w6dhciBtYXJrZXQgbWV0aW4gdcOnYXKSAQ1ncm9jZXJ5X3N0b3Jl4AEA!16s%2Fg%2F11cs3jpr_c?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
     },
+]
+
+const PlacesParks = [
+    {
+        title: "İskenderun Millet Park",
+        description: "yerli park",
+        location: "https://www.google.com/maps/place/%C4%B0skenderun+Millet+Park/@36.587331,36.1637905,17z/data=!3m1!4b1!4m6!3m5!1s0x152f5950b07e744d:0xc1bb61140d88d5fb!8m2!3d36.587331!4d36.1637905!16s%2Fg%2F11h3ms0w9x?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+    },
+    {
+        title: "İskenderun Güvercinli Park",
+        description: "yerli park",
+        location: "https://www.google.com/maps/place/%C4%B0skenderun+G%C3%BCvercinli+Park/@36.587331,36.1637905,15z/data=!4m10!1m2!2m1!1s%C4%B0skenderun+Park!3m6!1s0x152f591c3ec3dbf9:0xb973986a30e4fc68!8m2!3d36.5884337!4d36.1718404!15sChDEsHNrZW5kZXJ1biBQYXJrkgEEcGFya-ABAA!16s%2Fg%2F11h7fy3gld?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+    },
+    {
+        title: "iskenderun Amusement Park",
+        description: "Lunapark",
+        location: "https://www.google.com/maps/place/%C4%B0skenderun+Amusement+Park/@36.587331,36.1637905,15z/data=!4m10!1m2!2m1!1s%C4%B0skenderun+Park!3m6!1s0x152f59936aecd3ab:0xa5f1a08de2deca27!8m2!3d36.5913505!4d36.1752052!15sChDEsHNrZW5kZXJ1biBQYXJrkgEOYW11c2VtZW50X3BhcmvgAQA!16s%2Fg%2F11fpgh9hxv?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+    },
+    {
+        title:"",
+        description:"yerli park",
+        location:"",
+    }
+]
+
+const PlacesResturants = [
+    {
+        title: "",
+        description: "",
+        location :"",
+    },
+    {
+        title: "",
+        description: "",
+        location :"",
+    },
+    {
+        title: "",
+        description: "",
+        location :"",
+    }
 ]
 
 const freedata = [
@@ -287,6 +335,9 @@ export const assets ={
     Rentİmg,
     PlacesMarket,
     Marketİmg,
+    PlacesParks,
+    Parkİmg,
+    Resturantİmg,
 }
 
 

@@ -45,6 +45,7 @@ function PlacesCard(props) {
 
   if (props.category === "Lokantalar") {
       Data = assets.ElektrikCihazlar;
+      image = assets.Resturantİmg
     }
     if (props.category === "Siparış Getirn Marketler") {
       Data = assets.PlacesMarket;
@@ -59,10 +60,8 @@ function PlacesCard(props) {
       image= assets.Sporİmg;
     }
     if (props.category === "Park/Gezme yerleri") {
-      Data = assets.EmlakData;
-    }
-    if (props.category === "Pertol") {
-      Data = assets.EmlakData;
+      Data = assets.PlacesParks;
+      image = assets.Parkİmg;
     }
     if (props.category === "Cafe") {
       Data = assets.PlacesCafe;
@@ -89,8 +88,11 @@ function PlacesCard(props) {
               key={index}
               className="relative rounded-xl w-1/2 h-60 float-left overflow-hidden group"
             >
-              <div className="absolute w-full h-full" >
-                <img src={image} className="w-full h-full m-auto" />
+              <div className="absolute w-full h-full py-2" > 
+              <h1 className="text-white text-center text-xl">
+              {item.title}
+              </h1> 
+                <img src={image} className="w-full h-full m-auto pb-4" />
               </div>
               <div className="absolute left-0 top-[-100%] opacity-0 group-hover:opacity-100 group-hover:top-[0] p-4 w-full h-full bg-black/60 group-hover:backdrop:blur-sm duration-500">
                 <div className="text-white text-center flex flex-col items-center justify-center h-full px-2">
