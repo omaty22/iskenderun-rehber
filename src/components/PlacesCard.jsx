@@ -44,7 +44,7 @@ function PlacesCard(props) {
   };
 
   if (props.category === "Lokantalar") {
-      Data = assets.ElektrikCihazlar;
+      Data = assets.PlacesResturants;
       image = assets.Resturantİmg
     }
     if (props.category === "Siparış Getirn Marketler") {
@@ -86,10 +86,10 @@ function PlacesCard(props) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               key={index}
-              className="relative rounded-xl w-1/2 h-60 float-left overflow-hidden group"
+              className="relative rounded-xl w-1/2 h-60 float-left overflow-hidden group bg-slate-950"
             >
               <div className="absolute w-full h-full py-2" > 
-              <h1 className="text-white text-center text-xl">
+              <h1 className="text-white font-mono font-semibold text-center text-xl">
               {item.title}
               </h1> 
                 <img src={image} className="w-full h-full m-auto pb-4" />

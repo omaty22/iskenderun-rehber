@@ -161,7 +161,7 @@ const PlacesOtel = [
 
 const PlacesGym = [
     {
-        title: "GOLDEN LIFE SPOR MERKEZİ",
+        title: "GOLDEN LIFE SPOR ",
         description: "0326 613 13 18",
         location: "https://www.google.com/maps/place/Golden+Life+Fitness+Center/@36.5889358,36.1755371,17z/data=!3m1!4b1!4m6!3m5!1s0x152f593342ee66fb:0x3356e24001c06aee!8m2!3d36.5889358!4d36.1755371!16s%2Fg%2F11cs3cgg49?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
     },
@@ -283,37 +283,40 @@ const PlacesParks = [
         location: "https://www.google.com/maps/place/%C4%B0skenderun+Amusement+Park/@36.587331,36.1637905,15z/data=!4m10!1m2!2m1!1s%C4%B0skenderun+Park!3m6!1s0x152f59936aecd3ab:0xa5f1a08de2deca27!8m2!3d36.5913505!4d36.1752052!15sChDEsHNrZW5kZXJ1biBQYXJrkgEOYW11c2VtZW50X3BhcmvgAQA!16s%2Fg%2F11fpgh9hxv?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
-        title:"",
+        title:"İskenderun Yeni Park",
         description:"yerli park",
-        location:"",
+        location:"https://www.google.com/maps/place/Fatih+Sultan+Mehmet+Cd.,+31200+%C4%B0skenderun%2FHatay/@36.586168,36.155804,17z/data=!3m1!4b1!4m6!3m5!1s0x152f5921bca98b81:0xe26c1180f51bf9c0!8m2!3d36.586168!4d36.155804!16s%2Fg%2F1tjz0r4n?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     }
 ]
 
 const PlacesResturants = [
     {
-        title: "",
-        description: "",
+        title: "Jule",
+        description: "00000000000/Dine-in takeaway delivery",
         location :"",
     },
     {
-        title: "",
-        description: "",
+        title: "Derviş",
+        description: "+905355893998/Dine-in takeaway delivery",
         location :"",
     },
     {
-        title: "",
-        description: "",
+        title: "Auafi",
+        description: "+905318996636/Dine-in takeaway delivery",
         location :"",
-    }
+    },
+    {
+        title: "Şadi",
+        description: "+905318633340(Dine-in takeaway delivery",
+        location: "",
+    },
+    {
+        title: "Zuher",
+        description: "+905340773778/Dine-in takeaway delivery",
+        location: "",
+    },
 ]
 
-const freedata = [
-    {
-        title: "yuş3",
-        description: "+90 539 336 65 44",
-        location: "Transfer"
-    },
-]
 export const assets ={
     iste,
     header_img,
@@ -337,6 +340,7 @@ export const assets ={
     Marketİmg,
     PlacesParks,
     Parkİmg,
+    PlacesResturants,
     Resturantİmg,
 }
 
