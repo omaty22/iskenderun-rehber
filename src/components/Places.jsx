@@ -22,7 +22,6 @@ function Places() {
           <PlacesCard category="Oteller" />
           <PlacesCard category="Spor Salonları" />
           <PlacesCard category="Park/Gezme yerleri"/>
-          <PlacesCard category="Pertol"/>
           <PlacesCard category="Cafe"/>
           <PlacesCard category="Araba Kiralama"/>
         </div>
