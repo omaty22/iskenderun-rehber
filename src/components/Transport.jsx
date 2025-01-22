@@ -14,7 +14,7 @@ function Transport() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="mb-8 mt-20"
+        className="mb-8 mt-20 sm:mt-10"
       >
         <Navbar />
         {/*------------------- Header-------------------*/}
