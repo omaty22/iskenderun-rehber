@@ -61,7 +61,7 @@ function Transport() {
             Mah="Primall AVM merkezi,İSTE üniversitesi,Adliye"
           />
           <DivLeft Hat="Şekere" Mah="Primemall,Adliye,Mustafa Kemal Mah." />
-          <DivLeft Hat="Modern Evler" Mah="" />
+          <DivLeft Hat="Modern Evler" Mah="Modern evler,Çarşı,Pac,imam hatip lieleri" />
           {/*------------------- TAXİ-------------------*/}
           <DivLeft
             Hat=""
@@ -80,8 +80,7 @@ function Transport() {
             Mah="Kışın Son Minibüs İSK'dan 23:30 de hareket eder Yazın son Minibüs İSK'dan 24:00 de hareket eder,ayrıntılı bilgi için :"
             link="http://belen.gov.tr/ulasim"
           />
-          <DivRight Hat="Reyhanlı" Mah=",ayrıntılı bilgi için :" link="" />
-          <DivRight Hat="Kırıkhan" Mah=",ayrıntılı bilgi için :" link="" />
+          <DivRight Hat="Bekbele" Mah="Pac'tan çıkan Bekbele araçları ile 20 dakikalık yol süresi altında bekbelede olunur gece 9'a kadar otobus bulunması gerek,ayrıntılı bilgi için :" link="https://moovitapp.com/hatay-6128/poi/bekbele/%C4%B0skenderun/itinerary/tr?customerId=4908&ref=1&af_sub8=%2Findex%2Ftr%2Ftoplu_ta%25C5%259F%25C4%25B1ma-%25C4%25B0skenderun-Hatay-site_153978340-6128&af_sub9=Search%20bar%20button&poiType=site&fll=36.537621_36.147988&tll=36.590227_36.171035&metroSeoName=Hatay" />
           <DivRight
             Hat="Arsuz"
             Mah="Kalkış Saatleri:22.20, 22.50 ,23.40  günden güne saatlerde farklılık olabilir 0539 649 3063 aramanızı önermekteyiz. ayrıntılı bilgi için :"
