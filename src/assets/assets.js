@@ -291,29 +291,29 @@ const PlacesParks = [
 
 const PlacesResturants = [
     {
-        title: "Jule",
+        title: "Julie",
         description: "00000000000/Dine-in takeaway delivery",
-        location :"",
+        location : "https://www.google.com/maps/place/36%C2%B035'13.5%22N+36%C2%B009'49.3%22E/@36.587069,36.1611243,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.587069!4d36.1636992?hl=en&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
         title: "Derviş",
         description: "+905355893998/Dine-in takeaway delivery",
-        location :"",
+        location :"https://www.google.com/maps/@36.5791934,36.1690366,3a,75y,210.11h,86.05t/data=!3m7!1e1!3m5!1s1iKPl8iBSvrisCfgzgJ2rQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.9464137669264403%26panoid%3D1iKPl8iBSvrisCfgzgJ2rQ%26yaw%3D210.10987333146016!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
         title: "Auafi",
         description: "+905318996636/Dine-in takeaway delivery",
-        location :"",
+        location :"https://www.google.com/maps/@36.5842035,36.1631092,3a,75y,292.89h,81.13t/data=!3m7!1e1!3m5!1sFBFIaMTq94whnY7nW2WJFA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D8.87017468174028%26panoid%3DFBFIaMTq94whnY7nW2WJFA%26yaw%3D292.88875472691353!7i16384!8i8192?hl=en&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
         title: "Şadi",
         description: "+905318633340(Dine-in takeaway delivery",
-        location: "",
+        location: "https://www.google.com/maps/place/Cumhuriyet,+Mithatpa%C5%9Fa+Cd.+No:82,+31200+%C4%B0skenderun%2FHatay/@36.5838124,36.1625699,17z/data=!3m1!4b1!4m6!3m5!1s0x152f5926f5bbab55:0x7e4c44c6767109e!8m2!3d36.5838124!4d36.1625699!16s%2Fg%2F11gff4ghs6?hl=en&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
         title: "Zuher",
         description: "+905340773778/Dine-in takeaway delivery",
-        location: "",
+        location: "https://www.google.com/maps/place/Z%C3%BCher+Tavuk+Restaurant/@36.5845568,36.1634183,3a,75y,284.24h,93.98t/data=!3m7!1e1!3m5!1s8YHhI9F5vQew7GxaT71eqA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3.979656217955082%26panoid%3D8YHhI9F5vQew7GxaT71eqA%26yaw%3D284.23835085369274!7i16384!8i8192!4m6!3m5!1s0x152f59267a7d3a47:0x7d336add87705b69!8m2!3d36.5845988!4d36.1633547!16s%2Fg%2F11nym933st?hl=en&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
 ]
 
