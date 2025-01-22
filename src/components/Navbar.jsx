@@ -26,12 +26,12 @@ function Navbar() {
     };
   }, []);
   return (
-    <div className="absolute top-0 left-0 w-full z-10 bg-slate-950">
+    <div className=" absolute top-0 left-0 w-full z-10 bg-slate-950">
       <div
         className="container mx-auto flex justify-between items-center
         py-4 px-6 md:px-20 lg:px-32  max-w-screen-2xl"
       >
-        <img src={assets.iste} alt="" className="w-10 h-10 " />
+        <img src={assets.iste} alt="" className="w-28 " />
         <ul className="hidden md:flex gap-7 text-white">
           <a href="/Land" className="cursor-pointer hover:text-gray-400">
             Hakkında

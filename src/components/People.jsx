@@ -15,7 +15,7 @@ function People() {
         id="People"
       >
         <Navbar />
-        <div className="w-3/4 m-auto py-10">
+        <div className="w-3/4 m-auto py-10 mt-20">
           <PeopleCard category="Elektrik Cihazlar" />
           <PeopleCard category="Özel Araçlar" />
           <PeopleCard category="Basım Yayılım" />

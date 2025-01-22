@@ -16,7 +16,7 @@ function Places() {
         id="Places"
       >
         <Navbar />
-        <div className="w-3/4 m-auto py-10">
+        <div className="w-3/4 m-auto py-10 mt-20">
           <PlacesCard category="Lokantalar" img="" />
           <PlacesCard category="Siparış Getirn Marketler" />
           <PlacesCard category="Oteller" />

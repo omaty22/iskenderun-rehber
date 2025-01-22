@@ -12,7 +12,7 @@ function Sorular() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="h-full bg-cover bg-center"
+        className="h-full bg-cover bg-center md:mt-20"
         id="Sorular"
       >
         <Navbar />
