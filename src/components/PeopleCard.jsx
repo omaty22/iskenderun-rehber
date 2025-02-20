@@ -73,9 +73,9 @@ function PeopleCard(props) {
                 src={assets.profilepic}
                 className="p-2 w-40 h-40 object-contain block m-auto rounded-full"
               />
-              <h1 className="pt-4 pb-2 font-extrabold">{item.title}</h1>
+              <h1 className="pt-4 pb-2 font-extrabold text-2xl">{item.title}</h1>
               <p>{item.description}</p>
-              <p className="pt-1 pb-1">{item.location}</p>
+              <p className="pt-1 pb-1 font-bold text-xl">{item.location}</p>
             </motion.div>
           );
         })}

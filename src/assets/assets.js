@@ -13,98 +13,98 @@ import Resturantİmg from './resturant.png'
 
 const ElektrikCihazlar = [
     {
-        title: "Lamasat",
+        title: "لمسات",
         description: "+90 531 242 95 24",
-        location: "tamir/alış-satış"
+        location: "إصلاح / شراء وبيع"
     },
     {
-        title: "Ahmet Mendil",
+        title: "أحمد منديل",
         description: "+90 531 812 74 44",
-        location: "Telefon tamiri/alış-satış"
+        location: "إصلاح الهاتف / بيع وشراء"
     },
     {
-        title: "Cihad Ramadan",
+        title: "جهاد رمضان",
         description: "+90 536 544 98 31",
-        location: "Elektrikçi"
+        location: "كهربائي"
     },
     {
         title: "Power Tek",
         description: "+90 535 383 14 19",
-        location: "kamera ve bilgisayar tamiri/kurumu"
+        location: "إصلاح/تركيب الكاميرا والكمبيوتر"
     },
     {
-        title: "Ramez Bey",
-        description: "++90 553 048 06 88",
-        location: "Cihaz alış/satışı"
+        title: "رامز",
+        description: "+90 553 048 06 88",
+        location: "شراء/بيع الأجهزة"
     },
     {
-        title: "Yamen Bey",
+        title: "يامن",
         description: "+90 555 033 39 55",
-        location: "Buzdolap/Ç.makinası alış/satışı"
+        location: "شراء/بيع الثلاجات,الآلات"
     },
     {
-        title: "umran zamzam",
+        title: "عمران زمزم",
         description: "+90 534 245 42 28",
-        location: "makina tamiri"
+        location: "إصلاح الآلات"
     },
 ]
 
 const  privatecarsdata = [
     {
-        title: "Ahmet Alaabas",
+        title: "أحمد العباس",
         description: "+90 534 072 22 96",
-        location: "özel araç"
+        location: "سيارة خاصة"
     },
     {
-        title: "Osama Bey",
+        title: "أسامة",
         description: "+90 531 665 35 77",
-        location: "Araba Tamiri"
+        location: "إصلاح السيارات"
     },
     {
-        title: "Adil Bey",
+        title: "عادل",
         description: "+90 537 597 25 97",
-        location: "araba kiralama/alış-satış"
+        location: "تأجير / شراء وبيع السيارات"
     },
     {
         title: "Madr",
         description: "+90 537 338 86 63",
-        location: "Araba Elekrik parçaların tamiri"
+        location: "إصلاح الأجزاء الكهربائية للسيارة"
     },
 ]
 
 const BasımYayılım = [
     {
-            title: "samer hafız",
+            title: "سامر حافظ",
             description: "+90 551 968 90 05",
-            location: "basım/yayılım"
+            location: "الطباعة/النشر"
         },
         {
-            title: "Muaz Bey",
+            title: "معاذ",
             description: "+90 535 017 57 93",
-            location: "basım/yayılım"
+            location: "الطباعة/النشر"
         },
         {
-            title: "Mulham Garib",
+            title: "ملهم غريب",
             description: "+90 545 977 39 44",
-            location: "basım/yayılım"
+            location: "الطباعة/النشر"
         },
 ]
 
 const SağlıkData = [
     {
-        title: "Hamza Bey",
+        title: "حمزة الصيدلاني",
         description: "+90 536 070 68 81",
-        location: "eczane/ilaç"
+        location: "صيدلية"
     },
     {
-        title: "yusuf alkurdi",
+        title: "يوسف الكردي",
         description: "+90 538 730 09 84",
-        location: "tıbbi tahliller"
+        location: "تحاليل الطبية"
     },
     {
-        title: "Hasan Bey",
+        title: "حسن",
         description: "+90 534 023 00 65",
-        location: "fizikoloji/masaj"
+        location: "تدليك/مساج"
     },
 ]
 
@@ -112,27 +112,27 @@ const EmlakData = [
     {
         title: "betar emlak",
         description: "+90 506 859 74 90",
-        location: "Emlakçı"
+        location: "وكيل عقاري"
     },
     {
         title: "Serdar emlak",
         description: "+90 507 320 92 47",
-        location: "Emlakçı"
+        location: "وكيل عقاري"
     },
     {
         title   : "VEGA GAYRİMENKUL",
         description: "0326 617 77 73",
-        location: "GAYRİMENKUL"
+        location: "العقارات"
     },
     {
         title   : "MAJÖR GAYRİMENKUL",
         description: "0326 614 15 55",
-        location: "GAYRİMENKUL"
+        location: "العقارات"
     },
     {
         title   : "AYTEV GAYRİMENKUL",
         description: "0326 613 53 90",
-        location: "GAYRİMENKUL"
+        location: "العقارات"
     },
 ]
 
