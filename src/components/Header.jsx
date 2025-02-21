@@ -7,21 +7,20 @@ function Header() {
     <div
       className="min-h-screen  bg-cover bg-center flex items-center
     w-full overflow-hidden bg-slate-900 mb-4"
-      style={{ backgroundImage: `url(${assets.header_img})`}}
+      style={{ backgroundImage: `url(${assets.logo})`}}
       id="Header"
     >
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 1.5 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
         className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32"
       >
         <h2
           className="text-5xl sm:text-6xl md:text-[82] inline-block
         max-w-3xl font-semibold pt-56 xl:text-8xl  xl:pt-96"
         >
-        Hoş Geldiniz
+          أهلا بكم في
         </h2>
         <div className="space-x-6 mt-16">
           <a

@@ -45,7 +45,7 @@ function Transport() {
               className="text-5xl sm:text-6xl md:text-[82] inline-block
         max-w-3xl font-semibold pt-20 lg:pt-4"
             >
-              İskenderun'da Ulaşım
+              المواصلات في إسكندرون
             </h2>
           </motion.div>
         </div>
@@ -65,25 +65,27 @@ function Transport() {
           {/*------------------- TAXİ-------------------*/}
           <DivLeft
             Hat=""
-            Mah="İskendrun Taksi duraklarının konum ve numaralarını görüntülemek için:"
+            Mah="لرؤية موقع وأرقام محطات تكاسي إسكندرون:"
           />
         </div>
         {/*------------------- iskenderun dışı-------------------*/}
         <div className="flex flex-col gap-4 mt-4">
           <DivRight
             Hat="Antakya"
-            Mah="Pac Araçları,zaman aralıkları için 0 326 225 35 38 arayabilirsiniz yada Sitelerini ziyaret etmek için :"
+            Mah="بالنسبة لعربات الباج،تمر بفترات زمنية معينة ما يقارب كل ١٥ دقيقة 
+يمكنك الاتصال برقم 0 326 225 35 38 او زيارة موقعهم الإلكتروني : "
             link="https://www.antakyaotogari.com/koy-garajlari.php?firma=hatay-antakya-pac-kooperatifi"
           />
           <DivRight
             Hat="Belen"
-            Mah="Kışın Son Minibüs İSK'dan 23:30 de hareket eder Yazın son Minibüs İSK'dan 24:00 de hareket eder,ayrıntılı bilgi için :"
+            Mah="ي فصل الشتاء، يغادر آخر باص من اسكندرون في الساعة١١:٣٠ . وفي الصيف يغادر اخر باص في الساعة ١٢:٠٠، للحصول على معلومات اكتر:"
             link="http://belen.gov.tr/ulasim"
           />
-          <DivRight Hat="Bekbele" Mah="Pac'tan çıkan Bekbele araçları ile 20 dakikalık yol süresi altında bekbelede olunur gece 9'a kadar otobus bulunması gerek,ayrıntılı bilgi için :" link="https://moovitapp.com/hatay-6128/poi/bekbele/%C4%B0skenderun/itinerary/tr?customerId=4908&ref=1&af_sub8=%2Findex%2Ftr%2Ftoplu_ta%25C5%259F%25C4%25B1ma-%25C4%25B0skenderun-Hatay-site_153978340-6128&af_sub9=Search%20bar%20button&poiType=site&fll=36.537621_36.147988&tll=36.590227_36.171035&metroSeoName=Hatay" />
+          <DivRight Hat="Bekbele" Mah="يستغرق الطريق ما يقارب العشرين دقيقة ،بشكل عام الباصات متاحة حتى الساعة التاسعة 
+للحصول على معلومات مفصلة:" link="https://moovitapp.com/hatay-6128/poi/bekbele/%C4%B0skenderun/itinerary/tr?customerId=4908&ref=1&af_sub8=%2Findex%2Ftr%2Ftoplu_ta%25C5%259F%25C4%25B1ma-%25C4%25B0skenderun-Hatay-site_153978340-6128&af_sub9=Search%20bar%20button&poiType=site&fll=36.537621_36.147988&tll=36.590227_36.171035&metroSeoName=Hatay" />
           <DivRight
             Hat="Arsuz"
-            Mah="Kalkış Saatleri:22.20, 22.50 ,23.40  günden güne saatlerde farklılık olabilir 0539 649 3063 aramanızı önermekteyiz. ayrıntılı bilgi için :"
+            Mah="اخر ساعات مغادرة الباص ما بين ال١٠:٥٠ لال١١:٤٠ قد تختلف الساعات من يوم لاخر رقم الاتصال :05396493063 للحصول على معلومات اكتر :"
             link="https://www.firmaulasim.com/iskenderun-arsuz-minibus-seferleri/"
           />
         </div>

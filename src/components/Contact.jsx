@@ -7,7 +7,7 @@ function Contact() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Gönderiliyor....");
+    setResult("جاري الإرسال...");
     const formData = new FormData(event.target);
 
     formData.append("access_key", "fc826fb9-8570-48b4-ac6f-8b874e76bcc1");
@@ -35,7 +35,6 @@ function Contact() {
       initial={{ opacity: 0, x: -200 }}
       transition={{ duration: 1.5 }}
       whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
       className="mt-20 text-center p-6 py-2 lg:px-32 w-full
     overflow-hidden"
       id="Contact"
@@ -44,16 +43,16 @@ function Contact() {
         className=" text-2xl sm:text-4xl font-bold mb-5
       text-center"
       >
-        Bize Ulaşın
+        للتواصل معنا
       </h1>
       <p className="text-center text-black mb-12 max-w-80 mx-auto">
-      İşletmenizi eklemek mi istiyorsunuz? Ya da web sitenizi oluşturmanız için bizi mi seçtiniz? E-posta yoluyla bizimle iletişime geçin.
+      هل تريد إضافة مكان/شخص؟ أو اخترتنا لإنشاء موقع الويب الخاص بك؟ تواصل معنا عبر البريد الإلكتروني
       </p>
 
       <form onSubmit={onSubmit} className="max-w-2xl mx-auto to-black">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 text-left">
-            Adınız
+            name
             <input
               className="w-full border border-gray-300 rounded py-3 px-4 my-2"
               name="Name"
@@ -63,7 +62,7 @@ function Contact() {
             />
           </div>
           <div className="w-full md:w-1/2 text-left md:pl-4">
-            Email Adresiniz
+            Email
             <input
               className="w-full border border-gray-300 rounded py-3 px-4 mt-2"
               name="Email"
@@ -74,7 +73,7 @@ function Contact() {
           </div>
         </div>
         <div className="my-6 text-left">
-          Mesajınız
+          Message
           <textarea
             className="w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none"
             name="Message"
@@ -86,7 +85,7 @@ function Contact() {
           className="bg-black text-white py-2 px-12 mb-10 rounded hover:bg-gray-800"
           type="submit"
         >
-          {result ? result : "Mesajı Gönder"}
+          {result ? result : "أرسل الرسالة"}
         </button>
       </form>
     </motion.div>

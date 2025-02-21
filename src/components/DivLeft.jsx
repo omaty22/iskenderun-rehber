@@ -14,16 +14,16 @@ function DivLeft(props) {
         className="max-w-screen-2xl mx-2 h-40 bg-slate-900 text-white"
       >
         <div className="container flex flex-col justify-center items-center">
-          <h1 className="text-2xl font-bold text-center pb-8 pt-4 xl:text-4xl">
-            Taksi Durakları
+          <h1 className="text-3xl font-bold text-center pb-8 pt-4 xl:text-4xl">
+          محطات التكاسي
           </h1>
-          <p className="text-center xl:text-3xl">
+          <p className="text-center text-2xl xl:text-3xl">
             {props.Mah}{" "}
             <a
-              className="text-blue-600 hover:underline font-bold"
+              className="text-blue-600 hover:underline font-bold text-2xl"
               href="https://www.taksi-duraklari.com/taksi-duraklari/hatay/iskenderun"
             >
-              Tıkalyın
+              اضغط
             </a>
           </p>
         </div>
@@ -55,8 +55,8 @@ function DivLeft(props) {
           />
         </div>
         <div className="container flex flex-col justify-center items-center">
-          <h1 className="text-2xl font-bold text-center pb-8 xl:text-4xl">
-            Şehir İçi
+          <h1 className="text-3xl font-bold text-center pb-8 xl:text-4xl">
+          داخل المدينة
           </h1>
           <p className="text-center xl:text-3xl">{props.Mah}</p>
         </div>

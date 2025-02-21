@@ -37,25 +37,25 @@ function PeopleCard(props) {
     ],
   };
 
-  if (props.category === "Elektrik Cihazlar") {
+  if (props.category === "الأجهزة الكهربائية") {
     Data = assets.ElektrikCihazlar;
   }
-  if (props.category === "Özel Araçlar") {
+  if (props.category === "السيارات") {
     Data = assets.privatecarsdata;
   }
-  if (props.category === "Basım Yayılım") {
+  if (props.category === "الطباعة و النشر") {
     Data = assets.BasımYayılım;
   }
-  if (props.category === "Sağlık") {
+  if (props.category === "الصحة") {
     Data = assets.SağlıkData;
   }
-  if (props.category === "Emlak") {
+  if (props.category === "العقارات") {
     Data = assets.EmlakData;
   }
 
   return (
     <>
-      <p className="pt-12 pb-5 pl-1 font-extrabold text-white text-3xl">
+      <p className="pt-12 pb-5 pl-1 font-extrabold text-white text-3xl text-right">
         {props.category}
       </p>
       <Slider {...settings}>

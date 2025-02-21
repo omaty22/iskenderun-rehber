@@ -39,16 +39,16 @@ function Navbar() {
             Hakkında
           </a>
           <a href="/People" className="cursor-pointer hover:text-gray-400">
-            Kişiler
+          الاشخاص
           </a>
           <a href="/Places" className="cursor-pointer hover:text-gray-400">
-            Yerler
+          الأماكن
           </a>
           <a href="/Transport" className="cursor-pointer hover:text-gray-400">
-            Ulaşım
+          التنقل
           </a>
           <a href="/Sorular" className="cursor-pointer hover:text-gray-400">
-            Sorular
+          أسئلة
           </a>
         </ul>
         <img
@@ -80,28 +80,28 @@ function Navbar() {
               href="/People"
               className="px-5 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              Kişiler
+              الاشخاص
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}
               href="/Places"
-              className="px-5 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+              className="px-7 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              Yerler
+              الأماكن
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}
               href="/Transport"
-              className="px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+              className="px-8 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              Ulaşım
+            التنقل
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}
               href="/Sorular"
-              className="px-4 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+              className="px-8 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              Sorular
+              أسئلة
             </a>
           </ul>
         </div>
