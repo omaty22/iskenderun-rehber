@@ -40,6 +40,12 @@ function PeopleCard(props) {
   if (props.category === "صيانة و بيع الكهربائيات") {
     Data = assets.ElektrikCihazlar;
   }
+  if (props.category === "تمديدات صحية") {
+    Data = assets.sihha;
+  }
+  if (props.category === "خدمات عامة") {
+    Data = assets.generalppl;
+  }
   if (props.category === "خدمات السيارات و النقل") {
     Data = assets.privatecarsdata;
   }

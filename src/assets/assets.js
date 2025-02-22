@@ -1,5 +1,4 @@
 import iste from './iste.jpg';
-import header_img from './header.jpg';
 import menu_icon from './menu_icon.svg';
 import city from './city.jpg';
 import profilepic from './ProfilePic.png';
@@ -28,11 +27,6 @@ const ElektrikCihazlar = [
         location: "إصلاح الهاتف / بيع وشراء"
     },
     {
-        title: "جهاد رمضان",
-        description: "+90 536 544 98 31",
-        location: "كهربائي"
-    },
-    {
         title: "Power Tek",
         description: "+90 535 383 14 19",
         location: "إصلاح/تركيب الكاميرا والكمبيوتر"
@@ -52,6 +46,97 @@ const ElektrikCihazlar = [
         description: "+90 534 245 42 28",
         location: "إصلاح الغسالات"
     },
+    {
+        title: "خالد",
+        description: "05393649567",
+        location: "تصليح موبايلات وتحويل عملة"
+    },
+]
+
+const sihha= [
+    {
+        title: "يمان كردي",
+        description: "05550333955",
+        location: "تصليح وبيع فلاتر ومكيفات  "
+    },
+    {
+        title: "زياد",
+        description: "+905394839274",
+        location: "تركيب فلاتر ماء"
+    },
+    {
+        title: "ابو ماجد",
+        description: "+905395178500",
+        location: "تمديدات صحية"
+    },
+    {
+        title: "سعيد",
+        description: "+905362435186",
+        location: "تمديدات صحية"
+    },
+    {
+        title: "جهاد رمضان",
+        description: "+90 536 544 98 31",
+        location: "تمديدات صحية"
+    },
+    {
+        title: "محمد",
+        description: "+905319641451",
+        location: "تمديدات صحية"
+    },
+]
+
+const generalppl = [
+    {
+        title: "رامي الكسم",
+        description: "+905383592407",
+        location: "محامي واستشارات قانونية"
+    },
+    {
+        title:"عمار",
+        description:"+90 534 411 88 15",
+        location:"معلم انشاءات ودهان وآلتشي",
+    },
+    {
+        title: "ابو براهيم",
+        description: "05378233755",
+        location: "محل مفروشات مستعمل"
+    },
+    {
+        title: "نبراس",
+        description: "+905376281827",
+        location: "محل مفروشات مستعمل"
+    },
+    {
+        title: "ابو هاني",
+        description: "05524231726",
+        location: "محل مفروشات مستعمل"
+    },
+    {
+        title: "ابو سهيل",
+        description: "05380391985",
+        location: "حلاق"
+    },
+    {
+        title: "علاء الكردي",
+        description: "+905375613244",
+        location: "تمديدات كهربا"
+    },
+    {
+        title: "المطبخ السوري",
+        description: "+905365993759",
+        location: "اكلات منزلية"
+    },
+    {
+        title: "حسن",
+        description: "+905352199166",
+        location: "نجار"
+    },
+    {
+        title: "باركيه",
+        description: "+905395954412",
+        location: "تركيب خشب باركيه"
+    },
 ]
 
 const  privatecarsdata = [
@@ -61,12 +146,22 @@ const  privatecarsdata = [
         location: "سوزوكي"
     },
     {
-        title: "أسامة",
+        title: "سوزوكي",
+        description: "+905319366739",
+        location: "سوزوكي"
+    },
+    {
+        title: "ابو عمر",
+        description: "تكسي",
+        location: "+905393932030"
+    },
+    {
+        title: "اسامة عابدين",
         description: "+90 531 665 35 77",
         location: "إصلاح السيارات"
     },
     {
-        title: "عادل",
+        title: "ابو عادل",
         description: "+90 537 597 25 97",
         location: "تأجير / شراء وبيع السيارات"
     },
@@ -79,47 +174,62 @@ const  privatecarsdata = [
 
 const  dormdata = [
     {
-        title: "أحمد العباس",
-        description: "+90 534 072 22 96",
-        location: "سيارة خاصة"
+        title: "ilimyayma",
+        description: "+90 543 454 22 79/سكن للشباب",
+        location: "https://maps.app.goo.gl/g66A7hxR5s2HcdzDA"
     },
     {
-        title: "أسامة",
-        description: "+90 531 665 35 77",
-        location: "إصلاح السيارات"
+        title: "KYK Erkek",
+        description: "سكن الجامعة الحكومي للشباب",
+        location: "https://www.google.com/maps/@36.573803,36.146797,3a,75.0y,36.059875h,82.85758t/data=!3m4!1e1!3m2!1sK34LeRWtkl4beP4tVF2SFw!2e0?g_st=ac"
     },
     {
-        title: "عادل",
-        description: "+90 537 597 25 97",
-        location: "تأجير / شراء وبيع السيارات"
+        title: "KYK Kız",
+        description: "+90 326 615 33 14",
+        location: "https://maps.app.goo.gl/sbd2hCDJFWPFkbrF9?g_st=ac"
     },
     {
-        title: "مضر",
-        description: "+90 537 338 86 63",
-        location: "إصلاح الأجزاء الكهربائية للسيارة"
-    },
+        title:"Zehra Tiftik Erkek Yurdu",
+        description:"05528553035/سكن للشباب",
+        location:"https://maps.app.goo.gl/tEpSLE1BYyyQmQXA6",
+    }
 ]
 
 const generaldata = [
     {
-        title: "أحمد العباس",
-        description: "+90 534 072 22 96",
-        location: "سيارة خاصة"
+        title: "مستوصف السوريين",
+        description: "+905067618383/تحاليل وعلاج",
+        location: "https://maps.app.goo.gl/31Bt7cCbofjbjqXA9"
     },
     {
-        title: "أسامة",
-        description: "+90 531 665 35 77",
-        location: "إصلاح السيارات"
+        title: "محل موزاييك",
+        description: "05434728081/برادي",
+        location: "https://maps.app.goo.gl/8FTbHoA8wM4tJz7d9?g_st=ac"
     },
     {
-        title: "عادل",
-        description: "+90 537 597 25 97",
-        location: "تأجير / شراء وبيع السيارات"
+        title:"الكرزي",
+        description:"05528820229/بيع ذهب ومجوهرات",
+        location:"https://maps.app.goo.gl/eXUY4RuCgRTXccXn8?g_st=ac",
     },
     {
-        title: "مضر",
-        description: "+90 537 338 86 63",
-        location: "إصلاح الأجزاء الكهربائية للسيارة"
+        title:"يوشع",
+        description:"+90 539 336 65 44/ويسترن يونيون",
+        location:"https://maps.app.goo.gl/YnHLejzPDebUDcrr9?g_st=ac",
+    },
+    {
+        title:"شفق نت",
+        description:"05347116666/نت فضائي",
+        location:"https://goo.gl/maps/BYxupatquJU8BN177",
+    },
+    {
+        title:"مجد كرامي",
+        description:"05349330775/غسيل سجاد",
+        location:"",
+    },
+    {
+        title:"ضاهر",
+        description:"05349245156/محل هدايا وتذكارات",
+        location:"",
     },
 ]
 
@@ -138,6 +248,11 @@ const BasımYayılım = [
             title: "ملهم غريب",
             description: "+90 545 977 39 44",
             location: "الطباعة/النشر"
+        },
+        {
+            title: "ابو نائل",
+            description: "+905519689005",
+            location: "طباعة لافتات/النشر"
         },
 ]
 
@@ -296,6 +411,11 @@ const PlacesMarket = [
         location : "https://www.rokamarket.com.tr",
     },
     {
+        title: "شركة البرنس",
+        description: "+90 539 492 35 49/توصيل ماء وغاز",
+        location : "https://goo.gl/maps/mkUhbDhrhmC2D8u26",
+    },
+    {
         title: "Aka Supermarket",
         description: "03266135461/Delivery",
         location: "https://www.google.com/maps/place/Aka+Supermarket/@36.58626,36.1698389,17z/data=!4m15!1m8!3m7!1s0x152f592e02599f3f:0x48b01687ae808ee5!2sAka+Supermarket!8m2!3d36.58626!4d36.1698389!10e1!16s%2Fg%2F11b7q3y516!3m5!1s0x152f592e02599f3f:0x48b01687ae808ee5!8m2!3d36.58626!4d36.1698389!16s%2Fg%2F11b7q3y516?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
@@ -357,6 +477,11 @@ const PlacesResturants = [
         location :"https://www.google.com/maps/@36.5842035,36.1631092,3a,75y,292.89h,81.13t/data=!3m7!1e1!3m5!1sFBFIaMTq94whnY7nW2WJFA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D8.87017468174028%26panoid%3DFBFIaMTq94whnY7nW2WJFA%26yaw%3D292.88875472691353!7i16384!8i8192?hl=en&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
+        title:"Hindi",
+        description:"0534 935 63 16/مثلجات وحلويات",
+        location:"https://maps.app.goo.gl/UkdBvR9LEqaCUEKj8",
+    },
+    {
         title: "Şadi",
         description: "+905318633340(Dine-in Takeaway Delivery",
         location: "https://www.google.com/maps/place/Cumhuriyet,+Mithatpa%C5%9Fa+Cd.+No:82,+31200+%C4%B0skenderun%2FHatay/@36.5838124,36.1625699,17z/data=!3m1!4b1!4m6!3m5!1s0x152f5926f5bbab55:0x7e4c44c6767109e!8m2!3d36.5838124!4d36.1625699!16s%2Fg%2F11gff4ghs6?hl=en&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
@@ -366,11 +491,14 @@ const PlacesResturants = [
         description: "+905340773778/Dine-in Takeaway Delivery",
         location: "https://www.google.com/maps/place/Z%C3%BCher+Tavuk+Restaurant/@36.5845568,36.1634183,3a,75y,284.24h,93.98t/data=!3m7!1e1!3m5!1s8YHhI9F5vQew7GxaT71eqA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3.979656217955082%26panoid%3D8YHhI9F5vQew7GxaT71eqA%26yaw%3D284.23835085369274!7i16384!8i8192!4m6!3m5!1s0x152f59267a7d3a47:0x7d336add87705b69!8m2!3d36.5845988!4d36.1633547!16s%2Fg%2F11nym933st?hl=en&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
+    {
+        title:"بيتزا ابو عبدو",
+        description:"05347058847/بيتزا ومعجنات"
+    }
 ]
 
 export const assets ={
     iste,
-    header_img,
     menu_icon,
     city,
     profilepic,
@@ -398,7 +526,9 @@ export const assets ={
     dorm,
     general,
     generaldata,
-    dormdata
+    dormdata,
+    generalppl,
+    sihha,
 }
 
 
