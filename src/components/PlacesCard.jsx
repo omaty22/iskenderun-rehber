@@ -43,7 +43,7 @@ function PlacesCard(props) {
     ],
   };
 
-  if (props.category === "المطاعم") {
+  if (props.category === "المطاعم العربية و الحلويات") {
       Data = assets.PlacesResturants;
       image = assets.Resturantİmg
     }
@@ -70,6 +70,14 @@ function PlacesCard(props) {
     if (props.category === "مكاتب تأجير السيارات") {
       Data = assets.PlacesRent;
       image= assets.Rentİmg;
+    }
+    if (props.category === "خدمات عامة") {
+      Data = assets.generaldata;
+      image = assets.general;
+    }
+    if (props.category === "سكنات الطلاب") {
+      Data = assets.dormdata;
+      image = assets.dorm;
     }
 
   return (

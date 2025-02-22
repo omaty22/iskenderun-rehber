@@ -12,6 +12,8 @@ import Parkİmg from './park.jpg';
 import Resturantİmg from './resturant.jpg'
 import logo from './logo.jpg';
 import Flogo from './Flogo.jpg';
+import dorm from './dorm.jpg';
+import general from './general.jpg';
 
 const ElektrikCihazlar = [
     {
@@ -53,6 +55,52 @@ const ElektrikCihazlar = [
 ]
 
 const  privatecarsdata = [
+    {
+        title: "حسن تركماني",
+        description: "05526875705",
+        location: "سوزوكي"
+    },
+    {
+        title: "أسامة",
+        description: "+90 531 665 35 77",
+        location: "إصلاح السيارات"
+    },
+    {
+        title: "عادل",
+        description: "+90 537 597 25 97",
+        location: "تأجير / شراء وبيع السيارات"
+    },
+    {
+        title: "مضر",
+        description: "+90 537 338 86 63",
+        location: "إصلاح الأجزاء الكهربائية للسيارة"
+    },
+]
+
+const  dormdata = [
+    {
+        title: "أحمد العباس",
+        description: "+90 534 072 22 96",
+        location: "سيارة خاصة"
+    },
+    {
+        title: "أسامة",
+        description: "+90 531 665 35 77",
+        location: "إصلاح السيارات"
+    },
+    {
+        title: "عادل",
+        description: "+90 537 597 25 97",
+        location: "تأجير / شراء وبيع السيارات"
+    },
+    {
+        title: "مضر",
+        description: "+90 537 338 86 63",
+        location: "إصلاح الأجزاء الكهربائية للسيارة"
+    },
+]
+
+const generaldata = [
     {
         title: "أحمد العباس",
         description: "+90 534 072 22 96",
@@ -304,7 +352,7 @@ const PlacesResturants = [
         location :"https://www.google.com/maps/@36.5791934,36.1690366,3a,75y,210.11h,86.05t/data=!3m7!1e1!3m5!1s1iKPl8iBSvrisCfgzgJ2rQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.9464137669264403%26panoid%3D1iKPl8iBSvrisCfgzgJ2rQ%26yaw%3D210.10987333146016!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
-        title: "Auafi",
+        title: "Awafi",
         description: "+905318996636/Dine-in Takeaway Delivery",
         location :"https://www.google.com/maps/@36.5842035,36.1631092,3a,75y,292.89h,81.13t/data=!3m7!1e1!3m5!1sFBFIaMTq94whnY7nW2WJFA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D8.87017468174028%26panoid%3DFBFIaMTq94whnY7nW2WJFA%26yaw%3D292.88875472691353!7i16384!8i8192?hl=en&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
     },
@@ -347,6 +395,10 @@ export const assets ={
     Resturantİmg,
     logo,
     Flogo,
+    dorm,
+    general,
+    generaldata,
+    dormdata
 }
 
 

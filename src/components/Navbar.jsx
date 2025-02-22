@@ -31,9 +31,7 @@ function Navbar() {
         className="container mx-auto flex justify-between items-center
         py-4 px-6 md:px-20 lg:px-32  max-w-screen-2xl"
       >
-        <a href="/Land">
         <img src={assets.iste} className="max-w-52" />
-        </a>
         <ul className="hidden md:flex gap-7 text-white">
           <a href="/Land" className="cursor-pointer hover:text-gray-400">
             الرئيسية
@@ -65,7 +63,7 @@ function Navbar() {
         <div
           className={`${
             showmobilemenu ? `w-full` : `hidden`
-          } overflow-hidden flex flex-col DropDownMenu mt-2`} 
+          } overflow-hidden flex flex-col DropDownMenu `} 
         >
           <ul className="flex flex-col gap-4">
             <a

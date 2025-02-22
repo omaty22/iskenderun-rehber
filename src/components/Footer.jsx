@@ -57,7 +57,7 @@ function Footer() {
                 </p>
               </Fade>
             </div>
-            <div className="flex flex-col p-10 gap-5">
+            <div className="flex flex-col p-9 gap-5 text-center">
               <Fade cascade damping={0.5}>
                 <h2 className="text-3xl font-bold text-center">معلومات التواصل</h2>
                 <ul className="flex felx-row gap-14 justify-center">
@@ -66,9 +66,9 @@ function Footer() {
                       <MessageCircle
                         size={24}
                         fill="green"
-                        className="ml-7"
+                        className="ml-4 mb-1"
                       ></MessageCircle>{" "}
-                      WhatsApp
+                      انضم إلينا
                       </button>
                   </li>
                   <li className="my-4">
@@ -76,9 +76,9 @@ function Footer() {
                       <Instagram
                         size={24}
                         fill="purple"
-                        className="ml-6"
+                        className="ml-1 mb-1"
                       ></Instagram>{" "}
-                      Instagram
+                      تابعنا
                       </button>
                   </li>
                   <li className="my-4">
@@ -86,7 +86,7 @@ function Footer() {
                       <Linkedin
                         size={24}
                         fill="blue"
-                        className="ml-3"
+                        className="ml-3 mb-1"
                       ></Linkedin>{" "}
                       Linkedin
                     </a>

@@ -20,7 +20,10 @@ function Accordion(props) {
       <Slide>
       <div className={`grid overflow-hidden transition-all duration-100 ease-in-out text-slate-600 text-sm
          ${active ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-        <div className='overflow-hidden pr-4 pt-2 lg:text-2xl text-right'>{props.answer}</div>
+        <div className='overflow-hidden pr-4 pt-2 lg:text-2xl text-right'>
+        <p>{props.answer} </p>
+        <a className='text-blue-700 text-xl hover:text-blue-800' href={props.link}>{props.linktext}</a>
+        </div>
       </div>
       </Slide>  
       </Fade>

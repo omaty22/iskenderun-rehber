@@ -25,7 +25,7 @@ function Sorular() {
             transition={{ duration: 1.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="container text-center mx-auto mb-4 px-6  text-white"
+            className="container text-center mx-auto  px-6  text-white"
           >
             <div className="lg:w-1/3 lg:mx-auto">
               <Lottie
@@ -47,6 +47,9 @@ function Sorular() {
             </h2>
           </motion.div>
         </div>
+        <Accordion title='ماهو موقع الاوبس ؟' answer='هو الموقع الأساسي الذي يمكنك من خلاله تقييد الدروس ، مشاهدة العلامات .. الخ' linktext=' موقع الاوبس' link='https://obs.iste.edu.tr/' />
+        <Accordion title='ماهو موقع الأوبوم ؟' answer='هو الموقع الذي يمكنك من خلاله متابعة الدروس التي تحمل عن بعد وتحميل ملفات كافة الدروس الأخرى' linktext='موقع الأوبوم' link='https://ubom.iste.edu.tr/login/index.php#maincontent' />
+        <Accordion title='كيف يمكنني تقييد دروس الفرع على السستم ؟' linktext='الطريقة في الرابط التالي' link="https://www.instagram.com/p/DGN2GtRMsfd/?igsh=bTVnc2wyNzM4c2Mz" />
         <Accordion title='أين يمكن الحصول على بطاقة الطالب؟' answer="بمجرد بدء العام الدراسي، يمكن الحصول عليها من شؤون الطلاب (مبنى المكتبة)" />
         <Accordion title='كيف يمكن شحن الرصيد لبطاقة اليميك هاني ؟' answer="يمكنك شحن الرصيد من حسابك في بنك هالك أو عبر أجهزة الصراف الآلي التابعة له"/>
         <Accordion title='كيف يمكن التقديم للحصول على منحة اليميك هاني ؟' answer='يستطيع جميع الطلاب التقديم على المنحة عند فتح باب التقديم كل فصل دراسي. يحصل الطلاب المقبولون في المنحة على وجبات مجانية في اليميك هاني . للتقديم، يجب إحضار نموذج الطلب الصادر عن الجامعة مملوءًا بالكامل، بالإضافة إلى كشف الدرجات الأكاديمي، والتوجه إلى سكرتير القسم' />
@@ -83,7 +86,7 @@ function Sorular() {
         <Accordion title='ما هي الدبلومة الزرقاء؟' answer='هي وثيقة معتمدة من الاتحاد الاوروبي تمنح للخريجين تساعد في الاعتراف بالشهادات الأكاديمية دوليا ليست إلزامية للسفر إلى الخارج لكنها مفيدة
  للحصول على الدبلومة الزرقاء يجب أن يكون المعدل التراكمي ٢.٢٥ على الأقل من ٤.٠'/>
         <Accordion title='ما هي الدبلومة الحمراء؟' answer='هي شهادة تميز تمنح للطلاب الذين يتخرجون بمرتبة الشرف بمعدل٣.٥ او اكثر وتكون  باللون الأحمر والذهبي'/>
-    </motion.div> 
+        </motion.div>
     </>
   )
 }

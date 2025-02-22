@@ -37,10 +37,10 @@ function PeopleCard(props) {
     ],
   };
 
-  if (props.category === "الأجهزة الكهربائية") {
+  if (props.category === "صيانة و بيع الكهربائيات") {
     Data = assets.ElektrikCihazlar;
   }
-  if (props.category === "خدمات السيارات") {
+  if (props.category === "خدمات السيارات و النقل") {
     Data = assets.privatecarsdata;
   }
   if (props.category === "الطباعة ( لافتات وكروت )") {
