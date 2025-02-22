@@ -11,6 +11,7 @@ import Marketİmg from './market.jpg';
 import Parkİmg from './park.jpg';
 import Resturantİmg from './resturant.jpg'
 import logo from './logo.jpg';
+import Flogo from './Flogo.jpg';
 
 const ElektrikCihazlar = [
     {
@@ -345,6 +346,7 @@ export const assets ={
     PlacesResturants,
     Resturantİmg,
     logo,
+    Flogo,
 }
 
 

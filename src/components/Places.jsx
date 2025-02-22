@@ -17,13 +17,13 @@ function Places() {
       >
         <Navbar />
         <div className="w-3/4 m-auto py-10 mt-20">
-          <PlacesCard category="Lokantalar" img="" />
-          <PlacesCard category="Siparış Getirn Marketler" />
-          <PlacesCard category="Oteller" />
-          <PlacesCard category="Spor Salonları" />
-          <PlacesCard category="Park/Gezme yerleri"/>
-          <PlacesCard category="Cafe"/>
-          <PlacesCard category="Araba Kiralama"/>
+          <PlacesCard category="المطاعم"/>
+          <PlacesCard category="ماركتات للتوصيل المنزلي" />
+          <PlacesCard category="الفنادق" />
+          <PlacesCard category="النوادي" />
+          <PlacesCard category="الحدائق"/>
+          <PlacesCard category="مقاهي"/>
+          <PlacesCard category="مكاتب تأجير السيارات"/>
         </div>
         <Footer/>
       </motion.div>

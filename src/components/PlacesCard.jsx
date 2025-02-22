@@ -43,38 +43,38 @@ function PlacesCard(props) {
     ],
   };
 
-  if (props.category === "Lokantalar") {
+  if (props.category === "المطاعم") {
       Data = assets.PlacesResturants;
       image = assets.Resturantİmg
     }
-    if (props.category === "Siparış Getirn Marketler") {
+    if (props.category === "ماركتات للتوصيل المنزلي") {
       Data = assets.PlacesMarket;
       image= assets.Marketİmg;
     }
-    if (props.category === "Oteller") {
+    if (props.category === "الفنادق") {
       Data = assets.PlacesOtel;
       image= assets.PlacesHotel;
     }
-    if (props.category === "Spor Salonları") {
+    if (props.category === "النوادي") {
       Data = assets.PlacesGym;
       image= assets.Sporİmg;
     }
-    if (props.category === "Park/Gezme yerleri") {
+    if (props.category === "الحدائق") {
       Data = assets.PlacesParks;
       image = assets.Parkİmg;
     }
-    if (props.category === "Cafe") {
+    if (props.category === "مقاهي") {
       Data = assets.PlacesCafe;
       image= assets.Cafeİmg;
     }
-    if (props.category === "Araba Kiralama") {
+    if (props.category === "مكاتب تأجير السيارات") {
       Data = assets.PlacesRent;
       image= assets.Rentİmg;
     }
 
   return (
     <>
-      <p className="pt-12 pb-5 pl-1 font-extrabold text-white text-3xl">
+      <p className="pt-12 pb-5 pr-3 font-extrabold text-white text-3xl text-right">
         {props.category}
       </p>
       <Slider {...settings}>

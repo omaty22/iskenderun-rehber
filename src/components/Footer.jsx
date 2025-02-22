@@ -43,15 +43,13 @@ function Footer() {
               className="relative block fill-transparent"
             ></path>
           </svg>
-          <div className="grid lg:grid-cols-3 sm:grid-cols-1 p-20 gap-10">
-          <div className="flex flex-col gap-5 lg:ml-10">
+          <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-10">
               <Fade cascade damping={0.05}>
-                <img src={assets.logo}
-                className="max-h-56 min-w-56 lg:w-1/2 mx-auto"
+                <img src={assets.Flogo}
+                className="max-h-80 min-w-80 lg:w-1/2 mx-auto pr-4"
                 />
               </Fade>
-            </div>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col pb-10 px-6 gap-5">
               <Fade cascade damping={0.05}>
                 <h2 className="text-3xl font-bold text-center">معلومات عن الاتحاد</h2>
                 <p className="lg:my-2 mb-4">
@@ -59,7 +57,7 @@ function Footer() {
                 </p>
               </Fade>
             </div>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col p-10 gap-5">
               <Fade cascade damping={0.5}>
                 <h2 className="text-3xl font-bold text-center">معلومات التواصل</h2>
                 <ul className="flex felx-row gap-14 justify-center">

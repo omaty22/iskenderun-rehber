@@ -3,6 +3,10 @@ import { assets } from "../assets/assets";
 import { motion } from "framer-motion";
 
 
+const newTab = (url) => {
+  window.open(url, "_blank").focus();
+};
+
 function About() {
   return (
     <motion.div
@@ -63,7 +67,7 @@ function About() {
           </p>
           <button
             onClick={() =>
-              newTab("https://tr.wikipedia.org/wiki/%C4%B0skenderun")
+              newTab("https://ar.wikipedia.org/wiki/%D9%84%D9%88%D8%A7%D8%A1_%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%88%D9%86")
             }
             className="bg-black text-white px-8 py-2 rounded hover:bg-gray-800"
           >
