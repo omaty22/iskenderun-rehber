@@ -22,18 +22,12 @@ function Header() {
         >
           أهلا بكم في
         </h2>
-        <div className="space-x-6 mt-16">
+        <div className="space-x-6 mt-10">
           <a
-            className="font-extrabold border border-black px-8 py-3 rounded hover:text-white hover:bg-black "
-            href="#About"
+            className="text-xl font-extrabold border border-black px-8 py-3 rounded hover:text-white hover:bg-black "
+            href="#Footer"
           >
-            Şehir
-          </a>
-          <a
-            className="font-bold bg-blue-500 px-8 py-3 rounded hover:text-black text-white "
-            href="#Contact"
-          >
-            İletişim
+            معلومات عن الاتحاد
           </a>
         </div>
       </motion.div>

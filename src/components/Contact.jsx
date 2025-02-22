@@ -37,7 +37,6 @@ function Contact() {
       whileInView={{ opacity: 1, x: 0 }}
       className="mt-20 text-center p-6 py-2 lg:px-32 w-full
     overflow-hidden"
-      id="Contact"
     >
       <h1
         className=" text-2xl sm:text-4xl font-bold mb-5

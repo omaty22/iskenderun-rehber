@@ -1,4 +1,4 @@
-import iste from './iste.png';
+import iste from './iste.jpg';
 import header_img from './header.jpg';
 import menu_icon from './menu_icon.svg';
 import city from './city.jpg';
@@ -10,7 +10,7 @@ import Rentİmg from './CarRent.jpg';
 import Marketİmg from './market.jpg';
 import Parkİmg from './park.jpg';
 import Resturantİmg from './resturant.jpg'
-import logo from './logo.jpeg';
+import logo from './logo.jpg';
 
 const ElektrikCihazlar = [
     {
