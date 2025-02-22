@@ -1,8 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { MessageCircle, Instagram, Linkedin } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
 import { assets } from "../assets/assets";
+
+
+const newTab = (url) => {
+  window.open(url, "_blank").focus();
+};
 
 function Footer() {
   const Year = new Date().getFullYear();
@@ -59,24 +64,24 @@ function Footer() {
                 <h2 className="text-3xl font-bold text-center">معلومات التواصل</h2>
                 <ul className="flex felx-row gap-14 justify-center">
                   <li className="my-4">
-                    <a href="">
-                      <Facebook
+                    <button onClick={() => newTab("https://chat.whatsapp.com/Hi6n67YHfKHI4Eqlu9VE40")}>
+                      <MessageCircle
                         size={24}
-                        fill="blue"
-                        className="ml-5"
-                      ></Facebook>{" "}
-                      Facebook
-                    </a>
+                        fill="green"
+                        className="ml-7"
+                      ></MessageCircle>{" "}
+                      WhatsApp
+                      </button>
                   </li>
                   <li className="my-4">
-                    <a href="">
+                    <button onClick={() => newTab("https://www.instagram.com/sob.iskenderun?igsh=MTA4ejZnMXRjMzdydA==")}>
                       <Instagram
                         size={24}
                         fill="purple"
-                        className="ml-5"
+                        className="ml-6"
                       ></Instagram>{" "}
                       Instagram
-                    </a>
+                      </button>
                   </li>
                   <li className="my-4">
                     <a href="https://www.linkedin.com/in/omar-abdullah-554063306/">

@@ -43,32 +43,46 @@ function Sorular() {
               className="text-5xl sm:text-6xl md:text-[82] inline-block
         max-w-3xl font-semibold"
             >
-                Sıkça Sorulan Sorular
+                من الاسئلة الشائعة
             </h2>
           </motion.div>
         </div>
-        <Accordion title='Öğrenci Kartı Nereden Alınır ?' answer="Eğtim yılı başlaması İle birlikte Öğrenci işlerinden(Kütüphane binası)'dan alınabilir" />
-        <Accordion title='Hoca Mail Adreslerini Nerden Görebilirim ? ' answer='https://iste.edu.tr/ ziyaret ederek Akademik=>Fakülteler=>Fakültenizi Seçin=>Personel sayfasında okul mailleri gözükür.'/>
-        <Accordion title='Yemekhane İçin Karta Nasıl Para Yüklenilir ?' answer="HalkBanka heasbınızdan yada HakBanka ATM'lerinde Kartlrınıza para yükleyebilirsiniz"/>
-        <Accordion title='Yemekhane Bursuna Nasıl Başvurulur ?' answer='Her dönem açılan başvurulara bütün öğrenciler başvurabilir,bursu kazanan öğrenciler yemekhaneye üctersiz girebilir,başvurmak için bölüm sekreterine üniversitenin yayınladığı formun doldurulmuş hali ve transkript ile gitmek gerekir' />
-        <Accordion title='Kredi Nedir ?' answer='Bir dersin kredi değeri, o dersin haftalık teorik ders saatlerinin tamamı ile laboratuvar, uygulama, atölye, stüdyo, staj ve benzeri çalışmaların haftalık saatlerinin yarısının toplamından oluşur.'/>
-        <Accordion title='Kredili Sistem Naıl Çalışır ?' answer='Bir dersin kredi değeri, o dersin haftalık teorik ders saatlerinin tamamı ile laboratuvar, uygulama, atölye, stüdyo, staj ve benzeri çalışmaların haftalık saatlerinin yarısının toplamından oluşur.'/>
-        <Accordion title='Akts Nedir ?' answer='Avrupa kredi transfer sistemi. Her dönem alınan derslerin toplam akts kredisi 30 dur. Erasmus ile öğrenci değişim programına katılırsan derslerin denkliğini sağlamak için düşünülmüştür. '/>
-        <Accordion title="Akts Kredi'den ne farkı var ?" answer='Kredi ders saati. Akts ise o dersin önemine göre belirlenen katsayi. O nedenle ortalama hesaplanirken akts üzerinden hesaplanir. Mesela herhangi bir bölüm dersiyle ilk senedeki bölüm dışı(ınkılap/türkçe vs..S) dersinin ders sayısı aynı olsa bile ikisinin aynı katsayıyla hesaplanmaz çünkü bölüm dersleri daha önemlidir.'/>
-        <Accordion title='Yüzdelik 10 Dilim Nedir ?' answer='Her bölümün öğrencileri aralarındaki ilk %10 dilimine girebilen öğrenciler ödemiş oldukları harçlık parası iade edilip yemekhane bursu de kazanırlar' />
-        <Accordion title='Mazerat Sınavı Nedir ?' answer='mazereti nedeniyle ara sınava katılamayan öğrenciler için yapılan sınavdır. Mazeret sınavları ara sınavların bitimini izleyen 15 (on beş) gün içinde ilgili yönetim kurullarınca belirlenen tarihlerde yapılır.'/>
-        <Accordion title='Bütünleme Sınavı Nedir ?' answer='Bütünleme sınavı, başarısız olunan (F2 hariç) veya koşullu geçilen dersler (D ile geçilen dersler) için yarıyıl/dönem sonu sınavlarından sonra yapılan sınavdır,Final yerine geçer'/>
-        <Accordion title='İME Programı nedir ?' answer='İşletmede Mesleki Eğtim(İME),öncelikle bir dönemini iş dünyasında geçirerek çalıştığı kurumun ihtiyaçlarını belirleyen öğrencilerin bu konuları projeye dönüştürerek üniversitenin sanayiye destek olmasını amaçlamaktadır,İME bir staj programı değildir,İME kulvarını seçmiş alttan dersi olmayan, entegre olmak istediği sektörün bilincine varan başarılı öğrenciler program kapsamındadır.'/>
-        <Accordion title='İME Programın Şartları Nelerdir  ?' answer='Alttan ders bulunmaması(bitirme projesi ve staj hariç)/not ortalamasının 2.75 ve üzeri olması/öğrencinin kendisi yapacağı yer ile anlaşır arasındaki sözleşmede üniversitenin hiç bir katkısı yada sorumluluğu yoktur '/>
-        <Accordion title='İME Programına nasıl başvurulur ?' answer='Şartlaı taşıyan öğrenciler kendisi İME yapmak istedikleri yeri bulmasından sonra üniversitemizin yayınladığı staj formunu doldurup yapacakları yerin ıslak imzası bulunacak şekilde İME Bölüm Sorumlusuna vermeleri gerek,üniverssitemiz yeri değerlendikten sonra onayda bulunursa öğrencinin son sınıf ikinci dönemi bulduğu yerde çalışarak gerçekleştirir,Ancak derslerinden sadece bitirme projesini almak zorunda '/>
-        <Accordion title='İME Aldım Dönem Ortalamam Nasıl Hesaplanır ?' answer="Dönem bitmesinden önce öğrenci görüşmeye girer görüşme değerlenmesinden sonra dönem ortalamasının %50'i görüşmeye göre,diğer %50'i ise İME yapmış olduğu yerin değerlendirmesine göre alınır"/>
-        <Accordion title='Erasmus Programı nedir ?' answer='Erasmus programı, yükseköğretim kurumlarının birbirleri ile işbirliği yapmalarını teşvik etmeye yönelik bir Avrupa Birliği programıdır. Yükseköğretim kurumlarının birbirleri ile ortak projeler üretip hayata geçirmeleri; kısa süreli öğrenci ve personel değişimi yapabilmeleri için karşılıksız mali destek sağlamaktadır.'/>
-        <Accordion title='Erasmus Programın Şartları Nelerdir ?' answer='Dil yeterlilik sınavında 60 ve üzeri puan alınması / 1.akademeler için ortalaması en az 2.5 ancak 2. ve 3. akademeler için en az 3.00 olması / alttan ders bulunması sıkıntı yaratmaz' />
-        <Accordion title="Erasmus'a Başvuru Nasıl Yapılır ?" answer='Dil yeterlilik sınavından geçtikten sonra üniversitenin yayınladığı bir tarihte başvurular açılır,E-Devlette form doldurarak en fazla iki yabancı üniversiteye başvurulabilir,başvurusu kabullenlen öğrenciler kabul görmüş olduğu üniversitenin şartlarına göre gitmek isteyip istemediğini seçer' />
-        <Accordion title='Dil Yeterlilik Sınavına Başvuru Nasıl Yapılır ?' answer='Üniveersitenin belirlediği tarihlerde öğrenci eposta ile başvuru yapılır, sınavı geçen öğrenciler (60 ve üzere puan) ellerinde geçtiklerine dair form ve transkript bilgileri ile Gemi binasındaki Erasmus bölümüne gidip sözlü sınava kayıt yaptırırlar,sözlü sınavı geçen öğrenciler sistemde Dil Yeterlilik Sınavından geçmiş sayılır' />
-        <Accordion title='Staj Nasıl Yapılır ?' answer='Bölümden bölüme şartlar değişir,genellikle 3. sınıfın yaz 2. döneminde ders kayıtların arasında alınır, staj dersinde  puan yoktur sisteme geçti yada geçmedi düşer,öğrencinin kendisi gereken şartları taşıyan kurumda bulup,staj evraklarını doldurması gerekir,doldurulmuş hali ile üniversitenin staj bölümüne teslim eder,staj bölümü onay verdikten sonra yaz tatilinde stajını en az 20 iş günü olarak tamamlayıp her gününde ne yaptığını staj defterine yazar,son olarak staj defterini verip görüşmeye alınır,geçen öğrenciler stajını tamamlamış sayılır.'/>
-        <Accordion title='Mavi Diploma/Diploma Eki Nedir ?' answer='Üye ülkeler tarafından verilen eğitim, Mavi Diploma adı verilen diploma eki ile belgelendirilmektedir. Mavi diploma, üniversite tarafından verilen eğitimin, diğer Avrupa ülkeleri tarafından tanınmasını ve derecelendirilmesini sağlar, yurt dışına çıkmak için zorunlu değil ancak faydalıdır,Mavi diplomaya almaya hak kazanmak için  en az 4.0 üzerinden 2.25 ortalamaya sahip olmak lazımdır'/>
-        <Accordion title='Kırmızı Diploma Nedir ?' answer='onur derecesiyle mezun olma durumunda kırmızı ve altın yaldızlı çerçeveli verilen diploma türüdür'/>
+        <Accordion title='أين يمكن الحصول على بطاقة الطالب؟' answer="بمجرد بدء العام الدراسي، يمكن الحصول عليها من شؤون الطلاب (مبنى المكتبة)" />
+        <Accordion title='كيف يمكن شحن الرصيد لبطاقة اليميك هاني ؟' answer="يمكنك شحن الرصيد من حسابك في بنك هالك أو عبر أجهزة الصراف الآلي التابعة له"/>
+        <Accordion title='كيف يمكن التقديم للحصول على منحة اليميك هاني ؟' answer='يستطيع جميع الطلاب التقديم على المنحة عند فتح باب التقديم كل فصل دراسي. يحصل الطلاب المقبولون في المنحة على وجبات مجانية في اليميك هاني . للتقديم، يجب إحضار نموذج الطلب الصادر عن الجامعة مملوءًا بالكامل، بالإضافة إلى كشف الدرجات الأكاديمي، والتوجه إلى سكرتير القسم' />
+        <Accordion title='ما هو الرصيد الأكاديمي (الكريدي)؟' answer='تُحدد قيمة الرصيد الأكاديمي للمادة بناءً على عدد الساعات النظرية الأسبوعية مضافًا إليها نصف عدد ساعات التطبيقات العملية مثل المختبرات، الورش، التدريب، وغيرها'/>
+        <Accordion title='كيف يعمل نظام الساعات المعتمدة؟' answer='يتم احتساب الرصيد الأكاديمي بناءً على إجمالي الساعات النظرية الأسبوعية، بالإضافة إلى نصف ساعات الدروس العملية مثل المختبرات، المشاريع، أو التدريب الميداني'/>
+        <Accordion title='ما هو نظام ال اكتس (النظام الأوروبي لنقل الرصيد الاكاديمي)؟' answer='هو نظام أوروبي يهدف إلى تسهيل معادلة الدورات الأكاديمية بين الجامعات المختلفة، خصوصًا للطلاب المشاركين في برنامج التبادل إيراسموس. إجمالي الساعات المطلوبة لكل فصل دراسي هو 30 ساعة اكتس '/>
+        <Accordion title=" ما الفرق بين الرصيد الأكاديمي و الاكتس" answer='الرصيد الأكاديمي يعتمد على عدد الساعات الأسبوعية للمادة
+رصيد آكتس يعتمد على أهمية المادة ويتم احتساب المعدل التراكمي بناء عليه
+المواد الأساسية في التخصص تؤثر أكثر من المواد العامة مثل التاريخ أو اللغة التركية'/>
+        <Accordion title='ما هو اختبار المعذرات ؟' answer='هو اختبار يتم تنظيمه للطلاب الذين لم يتمكنوا من حضور امتحان الفيزا بسبب عذر مقبول تحدد مواعيد هذه الاختبارات في غضون خمسة عشر يوما بعد انتهاء الامتحانات النصفية'/>
+        <Accordion title='ما هو امتحان التعويض ( بوتونلما ) ؟' answer='هو اختبار يجرى بعد الامتحانات النهائية للطلاب الذين لم يجتازوا مادة هذا الامتحان يعتبر بمثابة الامتحان النهائي حيث تلزم بعلامته بدل علامة الفينال مهما كانت '/>
+        <Accordion title='ما هو برنامج التدريب المهني ( إيما ) ؟' answer='هو برنامج تدريب مهني حيث يقضي الطلاب فصلا دراسيا كاملا في بيئة العمل ويحددون احتياجات المؤسسة التي يعملون فيها ثم يقومون بتحويلها إلى مشاريع جامعية لدعم القطاع الصناعي
+ برنامج إيما ليس تدريبا صيفيا عاديا بل هو مسار أكاديمي خاص يتطلب أن يكون الطالب بدون مواد متراكمة ولديه رؤية واضحة للقطاع الذي يريد الاندماج بع'/>
+        <Accordion title='ما هي شروط الالتحاق ببرنامج الإيما ؟' answer='ان يكون الطالب على الاقل في السنة الرابعة الفصل الثاني و وعدم تواجد مواد راسبة
+المعدل التراكمي يجب أن يكون ٢.٧٥ أو أعلى
+الطالب مسؤول عن إيجاد مكان التدريب بنفسه والجامعة غير مسؤولة عن توفير أماكن التدريب'/>
+        <Accordion title='كيف يمكن التقديم لبرنامج إيما؟' answer='يجب على الطالب إيجاد جهة التدريب بنفسه
+ملء نموذج التدريب الصادر عن الجامعة وتقديمه إلى مسؤول القسم مع توقيع الجهة المستضيفة
+بعد موافقة الجامعة يقوم الطالب بقضاء الفصل الدراسي الأخير في جهة التدريب حيث يسمح له باخذ مشروع التخرج فقط'/>
+        <Accordion title='كيف يتم احتساب المعدل الفصلي بعد برنامج إيما ؟' answer="خمسين بالمئة من التقييم يأتي من مقابلة الطالب مع الجامعة ثم خمسين بالمئة من التقييم يأتي من الجهة التي تم تنفيذ التدريب فيها"/>
+        <Accordion title='ما هو برنامج إيراسموس؟' answer='برنامج إيراسموس هو برنامج تبادل طلابي يدعمه الاتحاد الأوروبي يهدف إلى تشجيع التعاون بين الجامعات من خلال تبادل الطلاب وأعضاء هيئة التدريس وتقديم دعم مالي غير مسترد'/>
+        <Accordion title='
+ما هي شروط برنامج إيراسموس؟' answer='الحصول على ٦٠ نقطة أو أكثر في اختبار الكفاءة اللغوية
+المعدل التراكمي ٢.٥ على الأقل لطلاب السنة الأولى و ٣.٠ على الأقل لطلاب السنة الثانية والثالثة
+لا يشترط عدم وجود مواد متراكمة' />
+        <Accordion title="كيف يتم التقديم لبرنامج إيراسموس؟" answer='بعد اجتياز اختبار الكفاءة اللغوية يتم الإعلان عن مواعيد التقديم
+يقوم الطالب بملء نموذج التقديم في نظام اي من الدولات والتقديم  لجامعتين على الأكثر
+في حالة القبول يختار الطالب ما اذا كان يريد الالتحاق بالجامعة المضيفة أم لا وفقا لشروطها' />
+        <Accordion title='كيف يتم تنفيذ التدريب الصيفي؟' answer='تختلف متطلبات التدريب من قسم لاخر لكنه يتم عادة في الصيف بعد السنة الثالثة
+التدريب لا يؤثر على المعدل ويظهر في النظام على أنه ناجح او غير ناجح
+يجب أن يجد الطالب مكان التدريب بنفسه ويكمل جميع الأوراق المطلوبة ثم يقدمها إلى مكتب التدريب في الجامعة للحصول على الموافقة
+بعد الموافقة يقوم الطالب باتمام ٢٠ يوما على الاقل من التدريب مع توثيق يوميات التدريب في دفتر مخصص
+في النهاية يتم تقديم دفتر التدريب والخضوع لمقابلة نهائية لتقييم التجربة'/>
+        <Accordion title='ما هي الدبلومة الزرقاء؟' answer='هي وثيقة معتمدة من الاتحاد الاوروبي تمنح للخريجين تساعد في الاعتراف بالشهادات الأكاديمية دوليا ليست إلزامية للسفر إلى الخارج لكنها مفيدة
+ للحصول على الدبلومة الزرقاء يجب أن يكون المعدل التراكمي ٢.٢٥ على الأقل من ٤.٠'/>
+        <Accordion title='ما هي الدبلومة الحمراء؟' answer='هي شهادة تميز تمنح للطلاب الذين يتخرجون بمرتبة الشرف بمعدل٣.٥ او اكثر وتكون  باللون الأحمر والذهبي'/>
     </motion.div> 
     </>
   )

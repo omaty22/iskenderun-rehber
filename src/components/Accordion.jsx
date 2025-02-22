@@ -10,17 +10,17 @@ function Accordion(props) {
         transition={{ duration: 1.5 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-     className='py-3 mb-4 bg-gray-200 rounded-lg max-w-screen-2xl mx-2'>
+     className='py-3 mb-4 bg-gray-200 rounded-lg max-w-screen-2xl mx-2'> 
       <button onClick={() => setActive(!active) } className='flex justify-between w-full'>
-         <span className='pl-2 font-extrabold text-xl lg:text-3xl'>{props.title}</span>
-         {active ? <span className='pr-3 lg:text-2xl'>-</span> : <span className='pr-3 lg:text-2xl'>+</span>}
+         {active ? <span className='pl-3 lg:text-2xl'>-</span> : <span className='pl-3 lg:text-2xl'>+</span>}
+         <span className='pr-2 font-extrabold text-xl lg:text-3xl text-right'>{props.title}</span>
       </button>
       {active ?
       <Fade cascade damping={0.05}>
       <Slide>
       <div className={`grid overflow-hidden transition-all duration-100 ease-in-out text-slate-600 text-sm
          ${active ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-        <div className='overflow-hidden pl-4 pt-2 lg:text-2xl'>{props.answer}</div>
+        <div className='overflow-hidden pr-4 pt-2 lg:text-2xl text-right'>{props.answer}</div>
       </div>
       </Slide>  
       </Fade>
