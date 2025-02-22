@@ -17,10 +17,10 @@ function People() {
         <Navbar />
         <div className="w-3/4 m-auto py-10 mt-20">
           <PeopleCard category="الأجهزة الكهربائية" />
-          <PeopleCard category="السيارات" />
-          <PeopleCard category="الطباعة و النشر" />
+          <PeopleCard category="خدمات السيارات" />
+          <PeopleCard category="الطباعة ( لافتات وكروت )" />
           <PeopleCard category="الصحة" />
-          <PeopleCard category="العقارات" />
+          <PeopleCard category="السماسرة" />
         </div>
         <Footer/>
       </motion.div>

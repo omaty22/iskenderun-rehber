@@ -40,16 +40,16 @@ function PeopleCard(props) {
   if (props.category === "الأجهزة الكهربائية") {
     Data = assets.ElektrikCihazlar;
   }
-  if (props.category === "السيارات") {
+  if (props.category === "خدمات السيارات") {
     Data = assets.privatecarsdata;
   }
-  if (props.category === "الطباعة و النشر") {
+  if (props.category === "الطباعة ( لافتات وكروت )") {
     Data = assets.BasımYayılım;
   }
   if (props.category === "الصحة") {
     Data = assets.SağlıkData;
   }
-  if (props.category === "العقارات") {
+  if (props.category === "السماسرة") {
     Data = assets.EmlakData;
   }
 

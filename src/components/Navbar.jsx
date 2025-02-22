@@ -36,7 +36,7 @@ function Navbar() {
         </a>
         <ul className="hidden md:flex gap-7 text-white">
           <a href="/Land" className="cursor-pointer hover:text-gray-400">
-            Hakkında
+            الرئيسية
           </a>
           <a href="/People" className="cursor-pointer hover:text-gray-400">
           الاشخاص
@@ -71,9 +71,9 @@ function Navbar() {
             <a
               onClick={() => setshowmobilemenu(false)}
               href="/Land"
-              className="px-2 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
+              className="px-7 py-2 rounded-lg inline-block hover:text-white hover:bg-slate-800"
             >
-              Hakkında
+              الرئيسية
             </a>
             <a
               onClick={() => setshowmobilemenu(false)}

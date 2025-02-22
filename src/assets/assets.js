@@ -18,6 +18,7 @@ const ElektrikCihazlar = [
         description: "+90 531 242 95 24",
         location: "إصلاح / شراء وبيع"
     },
+
     {
         title: "أحمد منديل",
         description: "+90 531 812 74 44",
@@ -46,7 +47,7 @@ const ElektrikCihazlar = [
     {
         title: "عمران زمزم",
         description: "+90 534 245 42 28",
-        location: "إصلاح الآلات"
+        location: "إصلاح الغسالات"
     },
 ]
 
@@ -67,7 +68,7 @@ const  privatecarsdata = [
         location: "تأجير / شراء وبيع السيارات"
     },
     {
-        title: "Madr",
+        title: "مضر",
         description: "+90 537 338 86 63",
         location: "إصلاح الأجزاء الكهربائية للسيارة"
     },
@@ -80,7 +81,7 @@ const BasımYayılım = [
             location: "الطباعة/النشر"
         },
         {
-            title: "معاذ",
+            title: "ملاذ",
             description: "+90 535 017 57 93",
             location: "الطباعة/النشر"
         },
@@ -118,22 +119,22 @@ const EmlakData = [
     {
         title: "Serdar emlak",
         description: "+90 507 320 92 47",
-        location: "وكيل عقاري"
+        location: "سمسار"
     },
     {
         title   : "VEGA GAYRİMENKUL",
         description: "0326 617 77 73",
-        location: "العقارات"
+        location: "سمسار"
     },
     {
         title   : "MAJÖR GAYRİMENKUL",
         description: "0326 614 15 55",
-        location: "العقارات"
+        location: "سمسار"
     },
     {
         title   : "AYTEV GAYRİMENKUL",
         description: "0326 613 53 90",
-        location: "العقارات"
+        location: "سمسار"
     },
 ]
 

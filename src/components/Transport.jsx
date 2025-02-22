@@ -45,7 +45,7 @@ function Transport() {
               className="text-5xl sm:text-6xl md:text-[82] inline-block
         max-w-3xl font-semibold pt-20 lg:pt-4"
             >
-              المواصلات في إسكندرون
+              المواصلات في اسكندرون
             </h2>
           </motion.div>
         </div>
