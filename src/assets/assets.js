@@ -13,6 +13,7 @@ import logo from './logo.jpg';
 import Flogo from './Flogo.jpg';
 import dorm from './dorm.jpg';
 import general from './general.jpg';
+import hospitalimg from './hospital.jpg';
 
 const ElektrikCihazlar = [
     {
@@ -578,6 +579,7 @@ export const assets ={
     generalppl,
     sihha,
     hospitalData,
+    hospitalimg,
 }
 
 

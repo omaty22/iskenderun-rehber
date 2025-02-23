@@ -61,7 +61,7 @@ function PlacesCard(props) {
     }
     if (props.category === "المستشفيات") {
       Data = assets.hospitalData;
-      image= assets.Sporİmg;
+      image= assets.hospitalimg;
     }
     if (props.category === "الحدائق") {
       Data = assets.PlacesParks;
