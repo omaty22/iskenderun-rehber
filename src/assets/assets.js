@@ -88,9 +88,29 @@ const generalppl = [
         location: "محامي واستشارات قانونية"
     },
     {
+        title: "سهل الحسن",
+        description: "+90 537 560 14 61",
+        location: "تركيب زجاج وشبابيك"
+    },
+    {
         title:"عمار",
         description:"+90 534 411 88 15",
         location:"معلم انشاءات ودهان وآلتشي",
+    },
+    {
+        title:"مصعب",
+        description:"+90 539 829 03 33",
+        location:"دهان",
+    },
+    {
+        title:"نبيل خليل ",
+        description:"+90 539 775 47 75",
+        location:"تركيب موبيليا",
+    },
+    {
+        title:"معاذ",
+        description:"+90 555 147 99 30",
+        location:"نقل عفش",
     },
     {
         title: "ابو براهيم",
@@ -126,6 +146,11 @@ const generalppl = [
         title: "حسن",
         description: "+905352199166",
         location: "نجار"
+    },
+    {
+        title: "موسى القاسم",
+        description: "+90 534 910 66 43",
+        location: "حداد"
     },
     {
         title: "باركيه",

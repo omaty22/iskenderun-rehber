@@ -70,6 +70,11 @@ function Transport() {
         </div>
         {/*------------------- iskenderun dışı-------------------*/}
         <div className="flex flex-col gap-4 mt-4">
+        <DivRight
+            Hat="إدارة الهجرة"
+            Mah="يمكن الذهاب إلى إدارة الهجرة عن طريق باصات الدينيزجيلير التي تنطلق من مقابل دوار الباج موقع إدارة الهجرة :"
+            link="https://maps.app.goo.gl/NDJ3xLh9ZDe2zogd6"
+          />
           <DivRight
             Hat="Antakya"
             Mah="بالنسبة لعربات الباج،تمر بفترات زمنية معينة ما يقارب كل ١٥ دقيقة 
