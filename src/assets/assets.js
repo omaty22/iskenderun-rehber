@@ -34,12 +34,7 @@ const ElektrikCihazlar = [
     {
         title: "رامز",
         description: "+90 553 048 06 88",
-        location: "شراء/بيع الأجهزة"
-    },
-    {
-        title: "يامن",
-        description: "+90 555 033 39 55",
-        location: "شراء/بيع الثلاجات,الآلات"
+        location: "شراء/بيع شاشات"
     },
     {
         title: "عمران زمزم",
