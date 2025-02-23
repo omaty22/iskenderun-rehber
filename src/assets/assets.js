@@ -215,6 +215,39 @@ const  dormdata = [
     }
 ]
 
+const hospitalData = [
+    {
+        title: "devlet hatanesi",
+        description: "مستشفى",
+        location: "https://maps.app.goo.gl/a4M5aa9mdHQT8jCC6?g_st=aw"
+    },
+    {
+        title: "palmiye hastanesi",
+        description: "مستشفى",
+        location: "https://maps.app.goo.gl/17gs57Mjwbr8vbdB9?g_st=aw"
+    },
+    {
+        title: "gelişim hastanesi",
+        description: "مستشفى",
+        location: "https://maps.app.goo.gl/DkLh9nxXfhKV9W5s8?g_st=aw"
+    },
+    {
+        title: "MD park hastanesi",
+        description: "مستشفى",
+        location: "https://maps.app.goo.gl/deAs22xTZtoysZMg8?g_st=aw"
+    },
+    {
+        title: "diş hastanesi",
+        description: "مستشفى",
+        location: "https://maps.app.goo.gl/eKMfsiBiMKfagPre6?g_st=aw"
+    },
+    {
+        title: "devlet toki hastanesi",
+        description: "مستشفى",
+        location: "https://maps.app.goo.gl/XWYqq3PMGE4y92E57?g_st=aw"
+    },
+]
+
 const generaldata = [
     {
         title: "مستوصف السوريين",
@@ -450,11 +483,6 @@ const PlacesMarket = [
         description: "05325648129/Delivery",
         location: "https://www.google.com/maps/place/HAN%C3%87ER+market/@36.57902,33.9240201,7z/data=!4m10!1m2!2m1!1s+HAN%C3%87ER+GIDA+(Hasan+Han%C3%A7er)!3m6!1s0x1525fb151963eeed:0xf63d12e6fc21feba!8m2!3d36.4789112!4d36.0621579!15sChxIQU7Dh0VSIEdJREEgKEhhc2FuIEhhbsOnZXIpWhwiGmhhbsOnZXIgZ2lkYSBoYXNhbiBoYW7Dp2VykgENZ3JvY2VyeV9zdG9yZeABAA!16s%2Fg%2F11f5vdh5wt?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
     },
-    {
-        title: "Uçar Market",
-        description: "0326 618 05 11",
-        location: "https://www.google.com/maps/place/U%C3%A7ar+Market/@36.9132087,35.9062654,10z/data=!4m10!1m2!2m1!1sU%C3%87AR+MARKET+(Metin+U%C3%A7ar)!3m6!1s0x152f58bcf65aaa8f:0xb046880c30175597!8m2!3d36.5561582!4d36.1583216!15sChpVw4dBUiBNQVJLRVQgKE1ldGluIFXDp2FyKVoaIhh1w6dhciBtYXJrZXQgbWV0aW4gdcOnYXKSAQ1ncm9jZXJ5X3N0b3Jl4AEA!16s%2Fg%2F11cs3jpr_c?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
-    },
 ]
 
 const PlacesParks = [
@@ -549,6 +577,7 @@ export const assets ={
     dormdata,
     generalppl,
     sihha,
+    hospitalData,
 }
 
 

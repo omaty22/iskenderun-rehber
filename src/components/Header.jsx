@@ -18,7 +18,7 @@ function Header() {
       >
         <h2
           className="text-5xl sm:text-6xl md:text-[82] inline-block
-        max-w-3xl font-semibold pb-40 xl:pb-0 xl:text-8xl xl:pt-96"
+        max-w-3xl font-semibold pb-44 xl:pb-0 xl:text-8xl xl:pt-96"
         >
           أهلا بكم في
         </h2>

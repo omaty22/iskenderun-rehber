@@ -22,6 +22,7 @@ function Places() {
           <PlacesCard category="ماركتات للتوصيل المنزلي" />
           <PlacesCard category="سكنات الطلاب"/>
           <PlacesCard category="خدمات عامة"/>
+          <PlacesCard category="المستشفيات"/>
           <PlacesCard category="النوادي" />
           <PlacesCard category="الحدائق"/>
           <PlacesCard category="الفنادق" />
